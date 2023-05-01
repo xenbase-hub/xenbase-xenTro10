@@ -39,7 +39,7 @@ f_prot.write("#XT_prot\tXT_gene\tHS_prot\tHS_gene\tOrthoID\n")
 f_list = gzip.open('DIOPT2023_04.InParanoid_Hsap_Xtrop_RAW.tsv.gz', 'rt')
 f_list.readline()
 # OrtoID	Score	OrtoA	OrtoB
-# 1	11807	XP_017949278.1 1.000 NP_001120509.2 0.998 XP_017949276.1 0.995 XP_017949279.1 0.976 XP_017949280.1 0.974 XP_017949281.1 0.960 	H_sapiens|sp_Q8NF91_SYNE1_HUMAN_Nesprin-1_OS=Homo_sapiens_OX=9606_GN=SYNE1_PE=1_SV=4 1.000 
+# 1	11807	XP_017949278.1 1.000 NP_001120509.2 0.998 XP_017949276.1 0.995 XP_017949279.1 0.976 XP_017949280.1 0.974 XP_017949281.1 0.960 	H_sapiens|sp_Q8NF91_SYNE1_HUMAN_Nesprin-1_OS=Homo_sapiens_OX=9606_GN=SYNE1_PE=1_SV=4 1.000
 for line in f_list:
     tokens = line.strip().split("\t")
     ortho_id = tokens[0]
@@ -51,14 +51,14 @@ for line in f_list:
         if tmp_idx % 2 == 0:
             xt_id_list.append(tmp_xt.split('.')[0])
         tmp_idx += 1
-    
+
     tmp_idx = 0
     hs_id_list = []
     for tmp_hs in tokens[3].split():
         if tmp_idx % 2 == 0:
             hs_id_list.append(tmp_hs.split('_')[2])
         tmp_idx += 1
-    
+
     for tmp_xt_q in xt_id_list:
         tmp_xt_gene = 'NA'
         if tmp_xt_q in xt_prot2gene:
@@ -78,8 +78,8 @@ for line in f_list:
                     gene_summary[tmp_xt_gene][tmp_hs_gene] = ortho_id
                 elif gene_summary[tmp_xt_gene][tmp_hs_gene] != ortho_id:
                     sys.stderr.write('Different: %s - %s(%s vs %s)\n' %
-                                     (tmp_xt_gene, tmp_hs_gene, 
-                                      ortho_id, gene_summary[tmp_xt_gene][tmp_hs_gene]))
+                                     (tmp_xt_gene, tmp_hs_gene, ortho_id,
+                                      gene_summary[tmp_xt_gene][tmp_hs_gene]))
 
                 f_prot.write('%s\t%s\t%s\t%s\t%s\n' %
                              (tmp_xt_q, tmp_xt_gene,
