@@ -10,6 +10,13 @@ filename_review = 'XENTR_xenTro10.gene_symbols_from_reviewers.XB2023_04.csv'
 # NCBI_GeneID,XB_GeneID,GeneSymbol,XB_Symbol,USE_THIS_SYMBOL,QC:curators initials
 # GeneID:100489955,XB-GENE-1219042,avpr2.2,avpr2c,avpr2c,cjz
 
+c_orf_list = dict()
+f_c_orf = open('C-ORF.2023_04.txt', 'r')
+for line in f_c_orf:
+    tokens = line.strip().split("\t")
+    c_orf_list[tokens[0]] = tokens[1]
+f_c_orf.close()
+
 reviewed = dict()
 f_review = open(filename_review, 'r')
 f_review.readline()
@@ -28,9 +35,15 @@ f_out = open(filename_out, 'w')
 f_out.write(f_raw.readline())
 for line in f_raw:
     tokens = line.strip().split(",")
+    rep_symbol = tokens[1]
     gene_id = tokens[2]
     if gene_id in reviewed:
         tokens[1] = reviewed[gene_id]
         tokens[0] += ';Reviewed'
+    elif rep_symbol in c_orf_list:
+        tokens[1] = c_orf_list[rep_symbol]
+        tokens[0] += ';Reviewed_C_ORF'
+
     f_out.write("%s\n" % ",".join(tokens))
 f_out.close()
+
