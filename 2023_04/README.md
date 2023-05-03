@@ -2,6 +2,17 @@
 
 ## Final gene info table
 * XENTR_xenTro10.gene_symbols.XB2023_04.csv
+  * About information in the Remark.
+    * "PERFECT": UniProt, NCBI, and Xenbase have the same symbols. 
+    * "GOOD": Two out of three databases (UniProt, NCBI, and Xenbase) have the same symbols. The discordant database is recorded as "Check<Database>".
+      * CheckXenbase: Xenbase gene symbol is different.
+      * CheckNCBI: NCBI gene symbol is different.
+      * CheckUniProt: UniProt gene symbol is different.
+    * "CheckHuman": DIOPT does not provide human ortholog info.
+    * "REVIEW-Xenbase", "REVIEW-UniProt", "REVIEW-NCBI": The names of three databases are discordant, but the name from the database marked is consistent with the human ortholog suggested by the DIOPT. 
+    * "REVIEW": Difficult to suggest proper gene symbol. Leave the NCBI gene symbol. 
+    * "Reviewed": Manually reviewed by the Xenbase curator team.
+    * "Reverted": It was conflicted during the one-to-one ID-symbol validation, so it was reverted to the NCBI gene symbol.
 
 ## Scripts for the report
 * count-gene_id-and-symbol.sh: count the total number of records(proteins) & genes. 
