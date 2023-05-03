@@ -2,7 +2,7 @@
 import gzip
 
 filename_hgnc_raw = 'raw/hgnc_complete_set.2023_04.txt.gz'
-filename_out = 'XENTR_xenTro10.gene_names_raw.XB2023_04.csv'
+filename_out = 'XENTR_xenTro10.gene_symbols_raw.XB2023_04.csv'
 
 hgnc_info = dict()
 gene_symbols = dict()

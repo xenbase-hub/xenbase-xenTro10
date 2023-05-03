@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import sys
 
-filename_review = 'XENTR_xenTro10.gene_names_reviewed.XB2023_04.csv'
-filename_out = 'XENTR_xenTro10.gene_names.XB2023_04.csv'
+filename_review = 'XENTR_xenTro10.gene_symbols_reviewed.XB2023_04.csv'
+filename_out = 'XENTR_xenTro10.gene_symbols.XB2023_04.csv'
 
 symbol2id = dict()
 id2symbol = dict()

@@ -5,7 +5,7 @@
 
 gene_id2name = dict()
 
-filename_csv = 'XENTR_xenTro10.gene_names.XB2023_04.csv'
+filename_csv = 'XENTR_xenTro10.gene_symbols.XB2023_04.csv'
 
 count_diff = 0
 f_csv = open(filename_csv, 'r')
