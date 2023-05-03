@@ -15,6 +15,8 @@ f_review = open(filename_review, 'r')
 f_review.readline()
 for line in f_review:
     tokens = line.strip().split(",")
+    if len(tokens) == 0:
+        continue
     gene_id = tokens[0]
     gene_symbol = tokens[4]
     sys.stderr.write("%s %s\n" % (gene_id, gene_symbol))
