@@ -45,12 +45,14 @@ for tmp_seq in seq2h:
         if tmp_name != 'NA':
             rep_h = tmp_h
 
-    f_nr.write('>%s\n%s\n' % (rep_h, tmp_seq))
+    f_nr.write('>%s\n%s\n' % (rep_h, "\n".join(seq_list[rep_h])))
     if len(seq2h[tmp_seq]) > 1:
         if len(set(tmp_name_list)) == 1:
-            f_nr_log.write('Duplicate\t%s\t%s\n' % (rep_h, ';;'.join(sorted(seq2h[tmp_seq]))))
+            f_nr_log.write('Duplicate\t%s\t%s\n' %
+                           (rep_h, ';;'.join(sorted(seq2h[tmp_seq]))))
         else:
-            f_nr_log.write('MultiName\t%s\t%s\n' % (rep_h, ';;'.join(sorted(seq2h[tmp_seq]))))
+            f_nr_log.write('MultiName\t%s\t%s\n' %
+                           (rep_h, ';;'.join(sorted(seq2h[tmp_seq]))))
         count_multi += 1
     else:
         count_unique += 1

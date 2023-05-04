@@ -13,16 +13,17 @@ def read_fasta(tmp_filename):
     for line in f:
         if line.startswith('>'):
             tmp_h = line.strip().lstrip('>')
-            rv[tmp_h] = ''
+            rv[tmp_h] = []
         else:
-            rv[tmp_h] += line.strip()
+            rv[tmp_h].append(line.strip())
     f.close()
     return rv
 
 
 def seq2h(tmp_list):
     rv = dict()
-    for tmp_h, tmp_seq in tmp_list.items():
+    for tmp_h, tmp_seq_list in tmp_list.items():
+        tmp_seq = ''.join(tmp_seq_list)
         if tmp_seq in rv:
             sys.stderr.write("Duplicate: %s, %s\n" %
                              (tmp_h, ','.join(rv[tmp_seq])))
@@ -54,25 +55,40 @@ count_uniprot_only = 0
 
 for tmp_seq in seq2h_up.keys():
     tmp_name_up = seq2h_up[tmp_seq][0].split('|')[0]
+    if len(seq2h_up[tmp_seq]) > 1:
+        sys.sterr.write("MulitHeadder.NCBI: %s\n" %
+                        ";;".join(seq2h_up[tmp_seq]))
+
+    tmp_up_h = seq2h_up[tmp_seq][0]
     if tmp_seq in seq2h_ncbi:
+        tmp_ncbi_h = seq2h_ncbi[tmp_seq][0]
         good_seq_list.append(tmp_seq)
         tmp_name_ncbi = seq2h_ncbi[tmp_seq][0].split('|')[0]
 
         if tmp_name_up != tmp_name_ncbi:
             f_log.write('DiffName\t%s\t%s\n' %
                         (seq2h_up[tmp_seq][0], seq2h_ncbi[tmp_seq][0]))
-            # f_diff_name.write('>%s uniprot=%s\n%s\n' % (seq2h_ncbi[tmp_seq][0], seq2h_up[tmp_seq][0], tmp_seq))
+            # f_diff_name.write('>%s uniprot=%s\n%s\n' %
+            #                   (seq2h_ncbi[tmp_seq][0],
+            #                    seq2h_up[tmp_seq][0], tmp_seq))
         # else:
-        f_out.write('>%s uniprot=%s\n%s\n' % (seq2h_ncbi[tmp_seq][0], seq2h_up[tmp_seq][0], tmp_seq))
+        f_out.write('>%s uniprot=%s\n%s\n' %
+                    (seq2h_ncbi[tmp_seq][0], seq2h_up[tmp_seq][0],
+                     "\n".join(seq_ncbi[tmp_ncbi_h])))
     else:
-        f_log.write('UniProtOnly\t%s\n' % seq2h_up[tmp_seq][0])
-        f_up.write('>%s\n%s\n' % (seq2h_up[tmp_seq][0], tmp_seq))
+        f_log.write('UniProtOnly\t%s\n' % tmp_up_h)
+        f_up.write('>%s\n%s\n' % (tmp_up_h, "\n".join(seq_up[tmp_up_h])))
         count_uniprot_only += 1
 
 for tmp_seq in seq2h_ncbi.keys():
+    if len(seq2h_ncbi[tmp_seq]) > 1:
+        sys.sterr.write("MulitHeadder.NCBI: %s\n" %
+                        ";;".join(seq2h_ncbi[tmp_seq]))
     if tmp_seq not in seq2h_up:
-        f_log.write('RefSeqOnly\t%s\n' % seq2h_ncbi[tmp_seq][0])
-        f_ncbi.write('>%s\n%s\n' % (seq2h_ncbi[tmp_seq][0], tmp_seq))
+        tmp_ncbi_h = seq2h_ncbi[tmp_seq][0]
+        f_log.write('RefSeqOnly\t%s\n' % tmp_ncbi_h)
+        f_ncbi.write('>%s\n%s\n' %
+                     (tmp_ncbi_h, "\n".join(seq_ncbi[tmp_ncbi_h])))
         count_refseq_only += 1
 
 sys.stderr.write('Matched seq: %d\n' % len(good_seq_list))
