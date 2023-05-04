@@ -73,11 +73,15 @@ f_diopt.close()
 
 xb_names = dict()
 f_xb = open('XENTR_xenTro10.XB_export.Arshinoff-2023_04_26.csv', 'r')
+# Exists,Entrez,FeatureID,DBFeatureID,FeatureIDMatch,Symbol,DBSymbol,SymbolMatch,Model,DBModel,ModelMatch
+# Y,100036593,5806617,5806617,1,tor2a,tor2a,1,XBXT10g010920,XBXT10g010920,1
+# Y,100036594,953895,953895,1,cyp19a1,cyp19a1,1,XBXT10g001872,XBXT10g001872,1
+
 f_xb.readline()
 for line in f_xb:
     tokens = line.strip().split(',')
     ncbi_gene_id = tokens[1]
-    xb_gene_id = tokens[2]
+    xb_gene_id = tokens[3]
     xb_gene_symbol = tokens[6]
     xb_names[ncbi_gene_id] = {'symbol': xb_gene_symbol, 'xb_id': xb_gene_id}
 f_xb.close()
