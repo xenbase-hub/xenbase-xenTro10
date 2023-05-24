@@ -1123,6 +1123,7 @@ ANKRD36C	ankyrin repeat domain 36C
 ANKRD36P1	ankyrin repeat domain 36 pseudogene 1
 ANKRD37	ankyrin repeat domain 37
 ANKRD39	ankyrin repeat domain 39
+ANKRD39P1	ANKRD39 pseudogene 1
 ANKRD40	ankyrin repeat domain 40
 ANKRD40CL	ANKRD40 C-terminal like
 ANKRD42	ankyrin repeat domain 42
@@ -2021,7 +2022,6 @@ ATP6V1E1P2	ATPase H+ transporting V1 subunit E1 pseudogene 2
 ATP6V1E1P3	ATPase H+ transporting V1 subunit E1 pseudogene 3
 ATP6V1E2	ATPase H+ transporting V1 subunit E2
 ATP6V1F	ATPase H+ transporting V1 subunit F
-ATP6V1FNB	ATP6V1F neighbor
 ATP6V1G1	ATPase H+ transporting V1 subunit G1
 ATP6V1G1P1	ATPase H+ transporting V1 subunit G1 pseudogene 1
 ATP6V1G1P2	ATPase H+ transporting V1 subunit G1 pseudogene 2
@@ -2807,7 +2807,6 @@ C10orf67	chromosome 10 open reading frame 67
 C10orf67-AS1	C10orf67 antisense RNA 1
 C10orf71	chromosome 10 open reading frame 71
 C10orf71-AS1	C10orf71 antisense RNA 1
-C10orf82	chromosome 10 open reading frame 82
 C10orf88	chromosome 10 open reading frame 88
 C10orf88B	C10orf88B (pseudogene)
 C10orf90	chromosome 10 open reading frame 90
@@ -2889,7 +2888,6 @@ C17orf67	chromosome 17 open reading frame 67
 C17orf75	chromosome 17 open reading frame 75
 C17orf78	chromosome 17 open reading frame 78
 C17orf80	chromosome 17 open reading frame 80
-C17orf98	chromosome 17 open reading frame 98
 C17orf99	chromosome 17 open reading frame 99
 C18orf15	chromosome 18 putative open reading frame 15
 C18orf21	chromosome 18 open reading frame 21
@@ -2953,8 +2951,6 @@ C1R	complement C1r
 C1RL	complement C1r subcomponent like
 C1RL-AS1	C1RL antisense RNA 1
 C1S	complement C1s
-C1orf100	chromosome 1 open reading frame 100
-C1orf100P1	C1orf100 pseudogene 1
 C1orf105	chromosome 1 open reading frame 105
 C1orf115	chromosome 1 open reading frame 115
 C1orf116	chromosome 1 open reading frame 116
@@ -2998,7 +2994,6 @@ C20orf181	chromosome 20 putative open reading frame 181
 C20orf202	chromosome 20 open reading frame 202
 C20orf203	chromosome 20 open reading frame 203
 C20orf204	chromosome 20 open reading frame 204
-C20orf85	chromosome 20 open reading frame 85
 C20orf96	chromosome 20 open reading frame 96
 C21orf140	chromosome 21 open reading frame 140
 C21orf58	chromosome 21 open reading frame 58
@@ -3084,7 +3079,6 @@ C4orf19	chromosome 4 open reading frame 19
 C4orf3	chromosome 4 open reading frame 3
 C4orf33	chromosome 4 open reading frame 33
 C4orf36	chromosome 4 open reading frame 36
-C4orf45	chromosome 4 open reading frame 45
 C4orf46	chromosome 4 open reading frame 46
 C4orf46P1	C4orf46 pseudogene 1
 C4orf46P2	C4orf46 pseudogene 2
@@ -3130,7 +3124,6 @@ C6orf62	chromosome 6 open reading frame 62
 C6orf89	chromosome 6 open reading frame 89
 C7	complement C7
 C7orf25	chromosome 7 open reading frame 25
-C7orf31	chromosome 7 open reading frame 31
 C7orf33	chromosome 7 open reading frame 33
 C7orf50	chromosome 7 open reading frame 50
 C7orf57	chromosome 7 open reading frame 57
@@ -3156,7 +3149,6 @@ C9orf131	chromosome 9 open reading frame 131
 C9orf152	chromosome 9 open reading frame 152
 C9orf153	chromosome 9 open reading frame 153
 C9orf163	chromosome 9 putative open reading frame 163
-C9orf24	chromosome 9 open reading frame 24
 C9orf40	chromosome 9 open reading frame 40
 C9orf43	chromosome 9 open reading frame 43
 C9orf50	chromosome 9 open reading frame 50
@@ -3548,7 +3540,6 @@ CCBE1	collagen and calcium binding EGF domains 1
 CCDC102A	coiled-coil domain containing 102A
 CCDC102B	coiled-coil domain containing 102B
 CCDC103	coiled-coil domain containing 103
-CCDC105	coiled-coil domain containing 105
 CCDC106	coiled-coil domain containing 106
 CCDC107	coiled-coil domain containing 107
 CCDC110	coiled-coil domain containing 110
@@ -3839,6 +3830,7 @@ CCS	copper chaperone for superoxide dismutase
 CCSAP	centriole, cilia and spindle associated protein
 CCSER1	coiled-coil serine rich protein 1
 CCSER2	coiled-coil serine rich protein 2
+CCSER2P1	CCSER2 pseudogene 1
 CCT2	chaperonin containing TCP1 subunit 2
 CCT3	chaperonin containing TCP1 subunit 3
 CCT3P1	chaperonin containing TCP1 subunit 3 pseudogene 1
@@ -4755,6 +4747,16 @@ CIITA	class II major histocompatibility complex transactivator
 CILK1	ciliogenesis associated kinase 1
 CILP	cartilage intermediate layer protein
 CILP2	cartilage intermediate layer protein 2
+CIMAP1A	ciliary microtubule associated protein 1A
+CIMAP1B	ciliary microtubule associated protein 1B
+CIMAP1C	ciliary microtubule associated protein 1C
+CIMAP1D	CIMAP1 family member D
+CIMIP1	ciliary microtubule inner protein 1
+CIMIP2A	ciliary microtubule inner protein 2A
+CIMIP2B	ciliary microtubule inner protein 2B
+CIMIP2C	ciliary microtubule inner protein 2C
+CIMIP3	ciliary microtubule inner protein 3
+CIMIP4	ciliary microtubule inner protein 4
 CINP	cyclin dependent kinase 2 interacting protein
 CIP2A	cellular inhibitor of PP2A
 CIPC	CLOCK interacting pacemaker
@@ -8545,9 +8547,6 @@ FAM162A	family with sequence similarity 162 member A
 FAM162B	family with sequence similarity 162 member B
 FAM163A	family with sequence similarity 163 member A
 FAM163B	family with sequence similarity 163 member B
-FAM166A	family with sequence similarity 166 member A
-FAM166B	family with sequence similarity 166 member B
-FAM166C	family with sequence similarity 166 member C
 FAM167A	family with sequence similarity 167 member A
 FAM167A-AS1	FAM167A antisense RNA 1
 FAM167B	family with sequence similarity 167 member B
@@ -8930,6 +8929,7 @@ FBLN1	fibulin 1
 FBLN2	fibulin 2
 FBLN5	fibulin 5
 FBLN7	fibulin 7
+FBLP1	FBL pseudogene 1
 FBN1	fibrillin 1
 FBN1-DT	FBN1 divergent transcript
 FBN2	fibrillin 2
@@ -9251,6 +9251,8 @@ FKBP4P7	FKBP prolyl isomerase 4 pseudogene 7
 FKBP4P8	FKBP prolyl isomerase 4 pseudogene 8
 FKBP5	FKBP prolyl isomerase 5
 FKBP6	FKBP prolyl isomerase family member 6 (inactive)
+FKBP6P1	FKBP6 pseudogene 1
+FKBP6P2	FKBP6 pseudogene 2
 FKBP7	FKBP prolyl isomerase 7
 FKBP8	FKBP prolyl isomerase 8
 FKBP9	FKBP prolyl isomerase 9
@@ -10596,6 +10598,7 @@ GPC6	glypican 6
 GPC6-AS1	GPC6 antisense RNA 1
 GPC6-AS2	GPC6 antisense RNA 2
 GPCPD1	glycerophosphocholine phosphodiesterase 1
+GPCPD1P1	GPCPD1 pseudogene 1
 GPD1	glycerol-3-phosphate dehydrogenase 1
 GPD1L	glycerol-3-phosphate dehydrogenase 1 like
 GPD2	glycerol-3-phosphate dehydrogenase 2
@@ -10994,7 +10997,6 @@ GTSE1-DT	GTSE1 divergent transcript
 GTSF1	gametocyte specific factor 1
 GTSF1L	gametocyte specific factor 1 like
 GUCA1A	guanylate cyclase activator 1A
-GUCA1ANB	GUCA1A neighbor
 GUCA1ANB-GUCA1A	GUCA1ANB-GUCA1A readthrough
 GUCA1B	guanylate cyclase activator 1B
 GUCA1C	guanylate cyclase activator 1C
@@ -13915,6 +13917,9 @@ KIAA1143	KIAA1143
 KIAA1143P1	KIAA1143 pseudogene 1
 KIAA1143P2	KIAA1143 pseudogene 2
 KIAA1191	KIAA1191
+KIAA1191P1	KIAA1191 pseudogene 1
+KIAA1191P2	KIAA1191 pseudogene 2
+KIAA1191P3	KIAA1191 pseudogene 3
 KIAA1210	KIAA1210
 KIAA1217	KIAA1217
 KIAA1328	KIAA1328
@@ -17777,7 +17782,7 @@ MAFB	MAF bZIP transcription factor B
 MAFF	MAF bZIP transcription factor F
 MAFG	MAF bZIP transcription factor G
 MAFG-AS1	MAFG antisense RNA 1
-MAFIP	MAFF interacting protein (pseudogene)
+MAFIP	MAFF interacting protein
 MAFK	MAF bZIP transcription factor K
 MAFTRR	MAF transcriptional regulator RNA
 MAG	myelin associated glycoprotein
@@ -18067,7 +18072,7 @@ MAST4-IT1	MAST4 intronic transcript 1
 MASTL	microtubule associated serine/threonine kinase like
 MAT1A	methionine adenosyltransferase 1A
 MAT2A	methionine adenosyltransferase 2A
-MAT2AP1	MAT2A pseudogene
+MAT2AP1	MAT2A pseudogene 1
 MAT2B	methionine adenosyltransferase 2 non-catalytic beta subunit
 MATCAP1	microtubule associated tyrosine carboxypeptidase 1
 MATCAP2	microtubule associated tyrosine carboxypeptidase 2
@@ -18341,20 +18346,20 @@ METTL1	methyltransferase 1, tRNA methylguanosine
 METTL13	methyltransferase 13, eEF1A lysine and N-terminal methyltransferase
 METTL14	methyltransferase 14, N6-adenosine-methyltransferase subunit
 METTL14-DT	METTL14 divergent transcript
-METTL15	methyltransferase like 15
+METTL15	methyltransferase 15, mitochondrial 12S rRNA N4-cytidine
 METTL15P1	methyltransferase like 15 pseudogene 1
 METTL15P2	methyltransferase like 15 pseudogene 2
 METTL15P3	methyltransferase like 15 pseudogene 3
 METTL16	methyltransferase 16, N6-methyladenosine
 METTL17	methyltransferase like 17
-METTL18	methyltransferase like 18
+METTL18	methyltransferase 18, RPL3 N3-histidine
 METTL1P1	METTL1 pseudogene 1
 METTL21A	methyltransferase 21A, HSPA lysine
 METTL21AP1	methyltransferase like 21A pseudogene 1
 METTL21C	methyltransferase 21C, AARS1 lysine
 METTL21EP	methyltransferase like 21E, pseudogene
 METTL22	methyltransferase 22, Kin17 lysine
-METTL23	methyltransferase like 23
+METTL23	methyltransferase 23, arginine
 METTL24	methyltransferase like 24
 METTL25	methyltransferase like 25
 METTL25B	methyltransferase like 25B
@@ -18372,7 +18377,7 @@ METTL5P4	METTL5 pseudogene 4
 METTL6	methyltransferase 6, methylcytidine
 METTL8	methyltransferase 8, methylcytidine
 METTL8P1	methyltransferase like 8 pseudogene 1
-METTL9	methyltransferase like 9
+METTL9	methyltransferase 9, His-X-His N1-histidine
 MEX3A	mex-3 RNA binding family member A
 MEX3B	mex-3 RNA binding family member B
 MEX3C	mex-3 RNA binding family member C
@@ -20644,6 +20649,7 @@ MMUT	methylmalonyl-CoA mutase
 MN1	MN1 proto-oncogene, transcriptional regulator
 MNAT1	MNAT1 component of CDK activating kinase
 MND1	meiotic nuclear divisions 1
+MND1P1	MND1 pseudogene 1
 MNDA	myeloid cell nuclear differentiation antigen
 MNS1	meiosis specific nuclear structural 1
 MNT	MAX network transcriptional repressor
@@ -23282,6 +23288,7 @@ NUP50-DT	NUP50 divergent transcript
 NUP50P1	nucleoporin 50 pseudogene 1
 NUP50P2	nucleoporin 50 pseudogene 2
 NUP50P3	nucleoporin 50 pseudogene 3
+NUP50P4	NUP50 pseudogene 4
 NUP54	nucleoporin 54
 NUP58	nucleoporin 58
 NUP58P1	nucleoporin 58 pseudogene 1
@@ -23398,10 +23405,6 @@ ODF1	outer dense fiber of sperm tails 1
 ODF2	outer dense fiber of sperm tails 2
 ODF2-AS1	ODF2 antisense RNA 1
 ODF2L	outer dense fiber of sperm tails 2 like
-ODF3	outer dense fiber of sperm tails 3
-ODF3B	outer dense fiber of sperm tails 3B
-ODF3L1	outer dense fiber of sperm tails 3 like 1
-ODF3L2	outer dense fiber of sperm tails 3 like 2
 ODF4	outer dense fiber of sperm tails 4
 ODR4	odr-4 GPCR localization factor homolog
 OFCC1	orofacial cleft 1 candidate 1 (pseudogene)
@@ -25859,6 +25862,7 @@ PLEKHA8	pleckstrin homology domain containing A8
 PLEKHA8P1	pleckstrin homology domain containing A8 pseudogene 1
 PLEKHB1	pleckstrin homology domain containing B1
 PLEKHB2	pleckstrin homology domain containing B2
+PLEKHB2P1	PLEKHB2 pseudogene 1
 PLEKHD1	pleckstrin homology and coiled-coil domain containing D1
 PLEKHF1	pleckstrin homology and FYVE domain containing 1
 PLEKHF2	pleckstrin homology and FYVE domain containing 2
@@ -26455,7 +26459,6 @@ PPP1R2P4	protein phosphatase 1 regulatory inhibitor subunit 2 pseudogene 4
 PPP1R2P5	protein phosphatase 1 regulatory inhibitor subunit 2 pseudogene 5
 PPP1R2P6	protein phosphatase 1 regulatory inhibitor subunit 2 pseudogene 6
 PPP1R2P8	protein phosphatase 1 regulatory inhibitor subunit 2 pseudogene 8
-PPP1R32	protein phosphatase 1 regulatory subunit 32
 PPP1R35	protein phosphatase 1 regulatory subunit 35
 PPP1R35-AS1	PPP1R35 antisense RNA 1
 PPP1R36	protein phosphatase 1 regulatory subunit 36
@@ -33236,19 +33239,28 @@ RPL7AP82	ribosomal protein L7a pseudogene 82
 RPL7AP83	ribosomal protein L7a pseudogene 83
 RPL7AP9	ribosomal protein L7a pseudogene 9
 RPL7L1	ribosomal protein L7 like 1
-RPL7L1P1	ribosomal protein L7 like 1 pseudogene 1
-RPL7L1P10	ribosomal protein L7 like 1 pseudogene 10
-RPL7L1P11	ribosomal protein L7 like 1 pseudogene 11
-RPL7L1P12	ribosomal protein L7 like 1 pseudogene 12
-RPL7L1P13	ribosomal protein L7 like 1 pseudogene 13
-RPL7L1P2	ribosomal protein L7 like 1 pseudogene 2
-RPL7L1P3	ribosomal protein L7 like 1 pseudogene 3
-RPL7L1P4	ribosomal protein L7 like 1 pseudogene 4
-RPL7L1P5	ribosomal protein L7 like 1 pseudogene 5
-RPL7L1P6	ribosomal protein L7 like 1 pseudogene 6
-RPL7L1P7	ribosomal protein L7 like 1 pseudogene 7
-RPL7L1P8	ribosomal protein L7 like 1 pseudogene 8
-RPL7L1P9	ribosomal protein L7 like 1 pseudogene 9
+RPL7L1P1	RPL7L1 pseudogene 1
+RPL7L1P10	RPL7L1 pseudogene 10
+RPL7L1P11	RPL7L1 pseudogene 11
+RPL7L1P12	RPL7L1 pseudogene 12
+RPL7L1P13	RPL7L1 pseudogene 13
+RPL7L1P14	RPL7L1 pseudogene 14
+RPL7L1P15	RPL7L1 pseudogene 15
+RPL7L1P16	RPL7L1 pseudogene 16
+RPL7L1P17	RPL7L1 pseudogene 17
+RPL7L1P18	RPL7L1 pseudogene 18
+RPL7L1P19	RPL7L1 pseudogene 19
+RPL7L1P2	RPL7L1 pseudogene 2
+RPL7L1P20	RPL7L1 pseudogene 20
+RPL7L1P21	RPL7L1 pseudogene 21
+RPL7L1P22	RPL7L1 pseudogene 22
+RPL7L1P3	RPL7L1 pseudogene 3
+RPL7L1P4	RPL7L1 pseudogene 4
+RPL7L1P5	RPL7L1 pseudogene 5
+RPL7L1P6	RPL7L1 pseudogene 6
+RPL7L1P7	RPL7L1 pseudogene 7
+RPL7L1P8	RPL7L1 pseudogene 8
+RPL7L1P9	RPL7L1 pseudogene 9
 RPL7P1	ribosomal protein L7 pseudogene 1
 RPL7P10	ribosomal protein L7 pseudogene 10
 RPL7P11	ribosomal protein L7 pseudogene 11
@@ -34474,6 +34486,9 @@ SATL1	spermidine/spermine N1-acetyl transferase like 1
 SAV1	salvador family WW domain containing protein 1
 SAXO1	stabilizer of axonemal microtubules 1
 SAXO2	stabilizer of axonemal microtubules 2
+SAXO3	stabilizer of axonemal microtubules 3
+SAXO4	stabilizer of axonemal microtubules 4
+SAXO5	stabilizer of axonemal microtubules 5
 SAYSD1	SAYSVFN motif domain containing 1
 SBDS	SBDS ribosome maturation factor
 SBDSP1	SBDS pseudogene 1
@@ -37088,7 +37103,6 @@ SPATA41	spermatogenesis associated 41
 SPATA42	spermatogenesis associated 42
 SPATA45	spermatogenesis associated 45
 SPATA46	spermatogenesis associated 46
-SPATA48	spermatogenesis associated 48
 SPATA6	spermatogenesis associated 6
 SPATA6L	spermatogenesis associated 6 like
 SPATA7	spermatogenesis associated 7
@@ -37163,6 +37177,11 @@ SPI1	Spi-1 proto-oncogene
 SPIB	Spi-B transcription factor
 SPIC	Spi-C transcription factor
 SPICE1	spindle and centriole associated protein 1
+SPICP1	Spi-C transcription factor pseudogene 1
+SPICP2	Spi-C transcription factor pseudogene 2
+SPICP3	Spi-C transcription factor pseudogene 3
+SPICP4	Spi-C transcription factor pseudogene 4
+SPICP5	Spi-C transcription factor pseudogene 5
 SPIDR	scaffold protein involved in DNA repair
 SPIN1	spindlin 1
 SPIN2A	spindlin family member 2A
@@ -37190,6 +37209,20 @@ SPINT4	serine peptidase inhibitor, Kunitz type 4
 SPINT5P	serine peptidase inhibitor, Kunitz type 5, pseudogene
 SPIRE1	spire type actin nucleation factor 1
 SPIRE2	spire type actin nucleation factor 2
+SPMAP1	sperm microtubule associated protein 1
+SPMAP2	sperm microtubule associated protein 2
+SPMIP1	sperm associated microtubule inner protein 1
+SPMIP10	sperm associated microtubule inner protein 10
+SPMIP11	sperm microtubule inner protein 11
+SPMIP2	sperm associated microtubule inner protein 2
+SPMIP3	sperm associated microtubule inner protein 3
+SPMIP3P1	SPMIP3 pseudogene 1
+SPMIP4	sperm associated microtubule inner protein 4
+SPMIP5	sperm associated microtubule inner protein 5
+SPMIP6	sperm microtubule inner protein 6
+SPMIP7	sperm microtubule inner protein 7
+SPMIP8	sperm microtubule inner protein 8
+SPMIP9	sperm microtubule inner protein 9
 SPN	sialophorin
 SPNS1	SPNS lysolipid transporter 1, lysophospholipid
 SPNS2	SPNS lysolipid transporter 2, sphingosine-1-phosphate
@@ -37206,6 +37239,9 @@ SPON2	spondin 2
 SPOP	speckle type BTB/POZ protein
 SPOPL	speckle type BTB/POZ protein like
 SPOPL-DT	SPOPL divergent transcript
+SPOPLP1	SPOPL pseudogene 1
+SPOPLP2	SPOPL pseudogene 2
+SPOPLP3	SPOPL pseudogene 3
 SPOUT1	SPOUT domain containing methyltransferase 1
 SPP1	secreted phosphoprotein 1
 SPP2	secreted phosphoprotein 2
@@ -37535,16 +37571,16 @@ STAB2	stabilin 2
 STAC	SH3 and cysteine rich domain
 STAC2	SH3 and cysteine rich domain 2
 STAC3	SH3 and cysteine rich domain 3
-STAG1	stromal antigen 1
+STAG1	STAG1 cohesin complex component
 STAG1-DT	STAG1 divergent transcript
-STAG2	stromal antigen 2
+STAG2	STAG2 cohesin complex component
 STAG2-AS1	STAG2 antisense RNA 1
-STAG3	stromal antigen 3
-STAG3L1	stromal antigen 3-like 1 (pseudogene)
-STAG3L2	stromal antigen 3-like 2 (pseudogene)
-STAG3L3	stromal antigen 3-like 3 (pseudogene)
-STAG3L4	stromal antigen 3-like 4 (pseudogene)
-STAG3L5P	stromal antigen 3-like 5 pseudogene
+STAG3	STAG3 cohesin complex component
+STAG3L1	STAG3 cohesin complex component like 1 (pseudogene)
+STAG3L2	STAG3 cohesin complex component like 2 (pseudogene)
+STAG3L3	sSTAG3 cohesin complex component like 3 (pseudogene)
+STAG3L4	STAG3 cohesin complex component like 4 (pseudogene)
+STAG3L5P	STAG3 cohesin complex component like 5, pseudogene
 STAG3L5P-PVRIG2P-PILRB	STAG3L5P-PVRIG2P-PILRB readthrough
 STAM	signal transducing adaptor molecule
 STAM-DT	STAM divergent transcript
@@ -37583,6 +37619,7 @@ STAU2	staufen double-stranded RNA binding protein 2
 STAU2-AS1	STAU2 antisense RNA 1
 STAU2P1	STAU2 pseudogene 1
 STBD1	starch binding domain 1
+STBD1P1	STBD1 pseudogene 1
 STC1	stanniocalcin 1
 STC2	stanniocalcin 2
 STEAP1	STEAP family member 1
@@ -38403,6 +38440,7 @@ TEKT4P2	tektin 4 pseudogene 2
 TEKT4P3	tektin 4 pseudogene 3
 TEKT5	tektin 5
 TEKTIP1	tektin bundle interacting protein 1
+TEKTL1	tektin like 1
 TELO2	telomere maintenance 2
 TEMN3-AS1	TENM3 antisense transcript 1
 TEN1	TEN1 subunit of CST complex
@@ -38422,7 +38460,6 @@ TENT5C	terminal nucleotidyltransferase 5C
 TENT5C-DT	TENT5C divergent transcript
 TENT5D	terminal nucleotidyltransferase 5D
 TEP1	telomerase associated protein 1
-TEPP	testis, prostate and placenta expressed
 TEPSIN	TEPSIN adaptor related protein complex 4 accessory protein
 TERB1	telomere repeat binding bouquet formation protein 1
 TERB2	telomere repeat binding bouquet formation protein 2
@@ -38480,20 +38517,15 @@ TEX28P2	TEX28 pseudogene 2
 TEX28P3	TEX28 pseudogene 3
 TEX29	testis expressed 29
 TEX30	testis expressed 30
-TEX33	testis expressed 33
 TEX35	testis expressed 35
 TEX36	testis expressed 36
 TEX36-AS1	TEX36 antisense RNA 1
-TEX37	testis expressed 37
 TEX38	testis expressed 38
 TEX41	testis expressed 41
-TEX43	testis expressed 43
 TEX44	testis expressed 44
-TEX45	testis expressed 45
 TEX46	testis expressed 46
 TEX47	testis expressed 47
 TEX48	testis expressed 48
-TEX49	testis expressed 49
 TEX50	testis expressed 50
 TEX51	testis expressed 51
 TEX52	testis expressed 52
@@ -38614,7 +38646,6 @@ THBS3	thrombospondin 3
 THBS3-AS1	THBS3 antisense RNA 1
 THBS4	thrombospondin 4
 THBS4-AS1	THBS4 antisense RNA 1
-THEG	theg spermatid protein
 THEGL	theg spermatid protein like
 THEM4	thioesterase superfamily member 4
 THEM4P1	thioesterase superfamily member 4 pseudogene 1
@@ -38730,6 +38761,7 @@ TIPARP	TCDD inducible poly(ADP-ribose) polymerase
 TIPARP-AS1	TIPARP antisense RNA 1
 TIPIN	TIMELESS interacting protein
 TIPINP1	TIPIN pseudogene 1
+TIPINP2	TIPIN pseudogene 2
 TIPRL	TOR signaling pathway regulator
 TIRAP	TIR domain containing adaptor protein
 TIRAP-AS1	TIRAP antisense RNA 1
@@ -39137,6 +39169,8 @@ TMEM65	transmembrane protein 65
 TMEM67	transmembrane protein 67
 TMEM68	transmembrane protein 68
 TMEM69	transmembrane protein 69
+TMEM69P1	TMEM69 pseudogene 1
+TMEM69P2	TMEM69 pseudogene 2
 TMEM70	transmembrane protein 70
 TMEM71	transmembrane protein 71
 TMEM72	transmembrane protein 72
@@ -39231,6 +39265,8 @@ TMTC4	transmembrane O-mannosyltransferase targeting cadherins 4
 TMUB1	transmembrane and ubiquitin like domain containing 1
 TMUB2	transmembrane and ubiquitin like domain containing 2
 TMX1	thioredoxin related transmembrane protein 1
+TMX1P1	TMX1 pseudogene 1
+TMX1P2	TMX1 pseudogene 2
 TMX2	thioredoxin related transmembrane protein 2
 TMX2-CTNND1	TMX2-CTNND1 readthrough (NMD candidate)
 TMX2P1	thioredoxin related transmembrane protein 2 pseudogene 1
@@ -40410,6 +40446,8 @@ TRN-GTT9-2	tRNA-Asn (anticodon GTT) 9-2
 TRNAU1AP	tRNA selenocysteine 1 associated protein 1
 TRNP1	TMF1 regulated nuclear protein 1
 TRNT1	tRNA nucleotidyl transferase 1
+TRNT1P1	TRNT1 pseudogene 1
+TRNT1P2	TRNT1 pseudogene 2
 TRO	trophinin
 TROAP	trophinin associated protein
 TROAP-AS1	TROAP and PRPH antisense RNA 1
@@ -41151,6 +41189,7 @@ UBA52P6	ubiquitin A-52 residue ribosomal protein fusion product 1 pseudogene 6
 UBA52P7	ubiquitin A-52 residue ribosomal protein fusion product 1 pseudogene 7
 UBA52P8	ubiquitin A-52 residue ribosomal protein fusion product 1 pseudogene 8
 UBA52P9	ubiquitin A-52 residue ribosomal protein fusion product 1 pseudogene 9
+UBA5P1	UBA5 pseudogene 1
 UBA6	ubiquitin like modifier activating enzyme 6
 UBA6-DT	UBA6 divergent transcript
 UBA7	ubiquitin like modifier activating enzyme 7
@@ -41360,6 +41399,7 @@ UCP2	uncoupling protein 2
 UCP3	uncoupling protein 3
 UEVLD	UEV and lactate/malate dehyrogenase domains
 UFC1	ubiquitin-fold modifier conjugating enzyme 1
+UFC1P1	UFC1 pseudogene 1
 UFD1	ubiquitin recognition factor in ER associated degradation 1
 UFD1-AS1	UFD1 antisense RNA 1
 UFL1	UFM1 specific ligase 1
@@ -42228,6 +42268,7 @@ WDR74	WD repeat domain 74
 WDR75	WD repeat domain 75
 WDR76	WD repeat domain 76
 WDR77	WD repeat domain 77
+WDR77P1	WDR77 pseudogene 1
 WDR81	WD repeat domain 81
 WDR82	WD repeat domain 82
 WDR82P1	WD repeat domain 82 pseudogene 1
