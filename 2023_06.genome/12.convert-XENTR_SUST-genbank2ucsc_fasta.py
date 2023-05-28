@@ -15,7 +15,7 @@ for line in f_alias:
         continue
     tokens = line.strip().split("\t")
     gb_id = tokens[4]
-    chr_id = tokens[0].replace('Chr0', 'chr')
+    chr_id = tokens[0].replace('Chr', 'chr')
     chr_alias[gb_id] = chr_id
 f_alias.close()
 
