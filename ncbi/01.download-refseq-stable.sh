@@ -13,6 +13,7 @@ do
   else
     FILENAME_URL=$URL_NCBI_v10"/"$FILENAME
     echo "Download $FILENAME_URL"
+    curl --output-dir ./raw -O $FILENAME_URL
   fi
 done
 
@@ -24,6 +25,7 @@ do
   else
     FILENAME_URL=$URL_NCBI_v9"/"$FILENAME
     echo "Download $FILENAME_URL"
+    curl --output-dir ./raw -O $FILENAME_URL
   fi
 done
 
