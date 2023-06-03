@@ -9,7 +9,7 @@
   * 22,227 reference proteins (UP000008143_8364)
   * 15,547 additional proteins (UP000008143_8364_additional)
 
-* Compared to 2023_01 (, 
+* Vs. 2023_01 (see [a log file](uniprot2023_01-uniprot2023_02.compare.txt) for changes).
   * 37,055 sequences are identical.
   * No sequence is added.
   * 488 sequences changed symbols
