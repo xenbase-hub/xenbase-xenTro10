@@ -1,6 +1,8 @@
-raw/*
 ncbi/raw/*
 ncbi/*gz
 uniprot/raw/*
 uniprot/*gz
 xenbase/raw/*
+xenbase/*gz
+proteome/*gz
+
