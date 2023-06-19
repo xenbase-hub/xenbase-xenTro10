@@ -5,4 +5,5 @@ uniprot/*gz
 xenbase/raw/*
 xenbase/*gz
 proteome/*gz
-
+genome/map/*
+genome/raw/*
