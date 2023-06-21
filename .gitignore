@@ -2,6 +2,8 @@ ncbi/raw/*
 ncbi/*gz
 uniprot/raw/*
 uniprot/*gz
+ensembl/raw/*
+ensembl/*gz
 xenbase/raw/*
 xenbase/*gz
 proteome/*gz
