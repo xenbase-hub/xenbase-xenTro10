@@ -1,4 +1,4 @@
-# UniProt resources for Xenopus tropicalis.
+# UniProt resources for *Xenopus tropicalis*.
 
 * https://www.uniprot.org/taxonomy/8364
 * https://www.uniprot.org/proteomes/UP000008143
