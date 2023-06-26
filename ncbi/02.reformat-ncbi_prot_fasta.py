@@ -19,6 +19,7 @@ def check_file(tmp_filename):
         sys.stderr.write('%s is not available. Stop.\n' % tmp_filename)
         sys.exit(1)
 
+
 filename_fa = sys.argv[1]
 filename_gff = sys.argv[2]
 filename_base = sys.argv[3]
