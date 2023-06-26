@@ -10,12 +10,12 @@ if len(sys.argv) != 2:
 
 filename_tsv = sys.argv[1]
 
-filename_base = os.path.basename(filename_tsv).replace('.raw.tsv.gz', '').replace('.raw.tsv', '')
+filename_base = os.path.basename(filename_tsv).replace('.raw.tsv.gz', '')
+filename_base = filename_base.replace('.raw.tsv', '')
 
-filename_log = "%s.log" % filename_base
-filename_symbols = "%s.gene_symbols.csv" % filename_base
-filename_names = "%s.gene_names.tsv" % filename_base
-filename_uniprot = "%s.gene_uniprot.csv" % filename_base
+filename_log = "%s.XENTR.log" % filename_base
+filename_tbl = "%s.XENTR.gene_table.tsv" % filename_base
+filename_up = "%s.XENTR.uniprot2gene.tsv" % filename_base
 
 if not os.access(filename_tsv, os.R_OK):
     sys.stderr.write('%s is not available. Exit.\n' % filename_tsv)
@@ -26,14 +26,15 @@ if filename_tsv.endswith('.gz'):
     import gzip
     f_tsv = gzip.open(filename_tsv, 'rt', encoding='latin-1')
 
-f_symbols = open(filename_symbols, 'w')
-f_names = open(filename_names, 'w')
+f_tbl = open(filename_tbl, 'w')
+f_up = open(filename_up, 'w')
 f_log = open(filename_log, 'w')
 
 uniprot_list = dict()
 refseq_list = dict()
 xb_id_list = dict()
 symbol_list = dict()
+gene_list = dict()
 
 for line in f_tsv:
     if line.startswith('!'):
@@ -51,11 +52,18 @@ for line in f_tsv:
     if xb_gene_id in xb_id_list:
         sys.stderr.write("Duplicate XB ID: %s\n" % xb_gene_id)
         sys.exit(1)
+
     xb_id_list[xb_gene_id] = 1
 
     # only trop
     if tmp_taxon == 'NCBITaxon:8364':
-        ## Duplicate gene symbols
+        if xb_gene_id not in gene_list:
+            gene_list[xb_gene_id] = {'symbols': tmp_symbol,
+                                     'name':  tmp_name,
+                                     'refseq': [],
+                                     'uniprot': []}
+
+        # Duplicate gene symbols
         if tmp_symbol not in symbol_list:
             symbol_list[tmp_symbol] = [xb_gene_id]
         else:
@@ -70,39 +78,61 @@ for line in f_tsv:
                 if tmp_ncbi_id not in refseq_list:
                     refseq_list[tmp_ncbi_id] = []
                 refseq_list[tmp_ncbi_id].append(xb_gene_id)
+                gene_list[xb_gene_id]['refseq'].append(tmp_ncbi_id)
+
             if tmp.startswith('UniProtKB:'):
                 tmp_uniprot_id = tmp.split(':')[1]
                 uniprot_acc_list.append(tmp_uniprot_id)
                 if tmp_uniprot_id not in uniprot_list:
                     uniprot_list[tmp_uniprot_id] = []
                 uniprot_list[tmp_uniprot_id].append(xb_gene_id)
-        
+                gene_list[xb_gene_id]['uniprot'].append(tmp_ncbi_id)
+
+        tmp_refseq_str = 'NA'
         count_ncbi_ids = len(ncbi_gene_id_list)
+
         if count_ncbi_ids == 1:
-            ncbi_gene_id = ncbi_gene_id_list[0]
-            f_symbols.write("%s,%s,%s\n" % (ncbi_gene_id, xb_gene_id, tmp_symbol))
+            tmp_refseq_str = ncbi_gene_id_list[0]
+
             if tmp_name == '':
-                f_log.write("NoGeneName\t%s\t%s\t%s\n" % (xb_gene_id, tmp_symbol, tmp_xref))
-            else:
-                f_names.write("%s,%s\t%s\n" % (ncbi_gene_id, xb_gene_id, tmp_name))
+                tmp_name = 'NotAvailable'
+                f_log.write("NoGeneName\t%s\t%s\t%s\n" %
+                            (xb_gene_id, tmp_symbol, tmp_xref))
 
         elif count_ncbi_ids == 0:
-            f_log.write("NoRefSeqID\t%s\t%s\t%s\n" % (xb_gene_id, tmp_symbol, tmp_xref))
+            f_log.write("NoRefSeqID\t%s\t%s\t%s\n" %
+                        (xb_gene_id, tmp_symbol, tmp_xref))
+
         else:
-            f_log.write("MultiRefSeqID\t%s\t%s\t%s\n" % (xb_gene_id, tmp_symbol, tmp_xref))
+            f_log.write("MultiRefSeqID\t%s\t%s\t%s\n" %
+                        (xb_gene_id, tmp_symbol, tmp_xref))
+            tmp_refseq_str = ','.join(sorted(ncbi_gene_id_list))
 
+        tmp_uniprot_str = 'NA'
         if len(uniprot_acc_list) == 0:
-            f_log.write("NoUniProtAcc\t%s\t%s\t%s\n" % (xb_gene_id, tmp_symbol, tmp_xref))
+            f_log.write("NoUniProtAcc\t%s\t%s\t%s\n" %
+                        (xb_gene_id, tmp_symbol, tmp_xref))
+        else:
+            tmp_uniprot_str = ','.join(sorted(uniprot_acc_list))
+            for tmp_acc in uniprot_acc_list:
+                f_up.write("%s\t%s\t%s\t%s\n" %
+                           (tmp_acc, tmp_refseq_str, xb_gene_id, tmp_symbol))
 
+        f_tbl.write('%s\t%s\t%s\t%s\t%s\n' %
+                    (tmp_refseq_str, xb_gene_id, tmp_symbol,
+                     tmp_uniprot_str, tmp_name))
 f_tsv.close()
 
 for tmp_ncbi_id, tmp_list in refseq_list.items():
     if len(tmp_list) > 1:
-        f_log.write("RefSeqWithMultiXB\t%s\t%s\n" % (tmp_ncbi_id, ';'.join(sorted(tmp_list))))
+        f_log.write("RefSeqWithMultiXB\t%s\t%s\n" %
+                    (tmp_ncbi_id, ';'.join(sorted(tmp_list))))
 
 for tmp_uniprot_id, tmp_list in uniprot_list.items():
     if len(tmp_list) > 1:
-        f_log.write("UniProtWithMultiXB\t%s\t%s\n" % (tmp_uniprot_id, ';'.join(sorted(tmp_list))))
+        f_log.write("UniProtWithMultiXB\t%s\t%s\n" %
+                    (tmp_uniprot_id, ';'.join(sorted(tmp_list))))
+
 f_log.close()
-f_symbols.close()
-f_names.close()
+f_tbl.close()
+f_up.close()
