@@ -62,7 +62,7 @@ for tmp_seq in seq2h_1.keys():
     tmp_name_1 = seq2h_1[tmp_seq][0].split('|')[0]
     if len(seq2h_1[tmp_seq]) > 1:
         sys.sterr.write("MulitHeader.%s: %s\n" %
-                        (dataname_1, 
+                        (dataname_1,
                          ";;".join(seq2h_1[tmp_seq])))
 
     tmp_1_h = seq2h_1[tmp_seq][0]
@@ -90,12 +90,12 @@ for tmp_seq in seq2h_2.keys():
     if len(seq2h_2[tmp_seq]) > 1:
         sys.sterr.write("MulitHeader.%s: %s\n" %
                         (dataname_2,
-                        ";;".join(seq2h_2[tmp_seq])))
+                         ";;".join(seq2h_2[tmp_seq])))
     if tmp_seq not in seq2h_1:
         tmp_2_h = seq2h_2[tmp_seq][0]
         f_log.write('%s_only\t%s\n' % (dataname_2, tmp_2_h))
         f_2.write('>%s\n%s\n' %
-                     (tmp_2_h, "\n".join(seq_2[tmp_2_h])))
+                  (tmp_2_h, "\n".join(seq_2[tmp_2_h])))
         count_2_only += 1
 
 sys.stderr.write('Matched seq: %d\n' % len(good_seq_list))
