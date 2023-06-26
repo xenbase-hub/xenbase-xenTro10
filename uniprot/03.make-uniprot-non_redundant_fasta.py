@@ -56,10 +56,12 @@ for tmp_seq in seq2h.keys():
     if len(seq2h[tmp_seq]) > 1:
         if len(set(tmp_name_list)) == 1:
             for tmp in h_list:
-                f_nr_log.write('Duplicate\t%s\t%s\n' % (rep_h, tmp))
+                if rep_h != tmp:
+                    f_nr_log.write('Duplicate\t%s\t%s\n' % (rep_h, tmp))
         else:
             for tmp in h_list:
-                f_nr_log.write('MultiName\t%s\t%s\n' % (rep_h, tmp))
+                if rep_h != tmp:
+                    f_nr_log.write('MultiName\t%s\t%s\n' % (rep_h, tmp))
 
         count_multi += 1
     else:
