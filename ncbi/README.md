@@ -1,5 +1,13 @@
 # NCBI resources for *Xenopus tropicalis*
 
+* Official RefSeq release : https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/
+  * [v10 genome (GCF_000004195.4)](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/GCF_000004195.4_UCB_Xtro_10.0/)
+  * [v9 genome (GCF_000004195.3)](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/GCF_000004195.3_Xenopus_tropicalis_v9.1/)
+  * [v7 genome (GCF_000004195.2)](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/GCF_000004195.2_Xtropicalis_v7/)
+* Up-to-date release: https://www.ncbi.nlm.nih.gov/datasets/taxonomy/8364/
+* SUSTv1 (alternative genome from SUST): https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_013368275.1/
+
+
 ## Processed files
 * https://pub.amphibase.org/annotation/legacy/Xenopus_tropicalis/ (ID: amphibase  PW: ribbit)
   * [XENTR_xenTro10.refseq104.prot_all.fa.gz](https://pub.amphibase.org/annotation/legacy/Xenopus_tropicalis/XENTR_xenTro10.refseq104.prot_all.fa.gz): All proteins
@@ -66,25 +74,3 @@
     * 7,209 sequences were represented by a sequence of same gene (gene symbol and Gene ID are matched).
     * 293 sequences were represented by a sequence of different gene (gene symbol and GeneID are not matched).
     * See [the log file](./XENTR_xenTro10.refseq104.prot_all_NR.log) for more details. 
-
-## Resources
-
-### X. tropicalis genomes (official RefSeq release)
-
-Source: https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/
-
-* [v10 genome (GCF_000004195.4)](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/GCF_000004195.4_UCB_Xtro_10.0/)
-* [v9 genome (GCF_000004195.3)](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/GCF_000004195.3_Xenopus_tropicalis_v9.1/)
-* [v7 genome (GCF_000004195.2)](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/GCF_000004195.2_Xtropicalis_v7/)
-
-
-### *X. tropicalis* genome (up-to-date)
-
-Source: https://www.ncbi.nlm.nih.gov/datasets/taxonomy/8364/
-
-
-### *X. tropicalis* genome (SUST version)
-
-Source: https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_013368275.1/
-
-
