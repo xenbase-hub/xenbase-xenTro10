@@ -39,7 +39,7 @@
   * 37,774 all protein sequences --> 37,651 non-redundant protein sequences.
     * 109 sequences were represented by a sequence with same gene name (Duplicate)
     * 14 sequences were represented by a sequence with different gene name (MultiName)
-    * See [the log file](./XENTR_xenTro10.uniprot2023_02.prot_all_NR.log) for more details. 
+    * See [the log file](./XENTR_uniprot2023_02.prot_all_NR.log) for more details. 
   
 
 ## 2023_02 version
