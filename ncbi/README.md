@@ -22,7 +22,9 @@
 ## Procedures
 
 * Download required files from NCBI.
+
   ``` ./01.download-refseq-stable.sh ```
+
   * [List of files for downloading](./FILES.xenTro10_refseq104)
 
 * Change the header format of protein sequences.
