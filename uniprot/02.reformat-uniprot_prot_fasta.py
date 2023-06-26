@@ -11,8 +11,18 @@ if filename_fa.endswith('.gz'):
     import gzip
     f_fa = gzip.open(filename_fa, 'rt')
 
+src_type = 'main'
+if filename_fa.find('_additional') >= 0:
+    src_type = 'additional'
+
 for line in f_fa:
     if line.startswith('>'):
+        tmp_type = src_type
+        if line.startswith('>sp'):
+            tmp_type += ';sp'
+        elif line.startswith('>tr'):
+            tmp_type += ';tr'
+
         tokens = line.strip().split()
         tmp_id = tokens[0].lstrip('>').split('|')[1]
         tmp_name = 'NA'
@@ -20,7 +30,7 @@ for line in f_fa:
             if tmp.startswith('GN='):
                 tmp_name = tmp.replace('GN=', '')
                 break
-        seq_h = '%s|%s' % (tmp_name, tmp_id)
+        seq_h = '%s|%s type=%s' % (tmp_name, tmp_id, tmp_type)
         seq_list[seq_h] = []
     else:
         seq_list[seq_h].append(line.strip())
