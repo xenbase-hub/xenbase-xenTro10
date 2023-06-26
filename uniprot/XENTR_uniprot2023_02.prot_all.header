@@ -7320,7 +7320,9 @@
 >MGC89056|A0A8J1J9E4 type=additional;tr
 >MGC89056|Q6DJ30 type=additional;tr
 >MGC89174|A0A803KIN5 type=main;tr
+>Mcrip1|A9JSQ8 type=main;sp
 >NA|A0JM83 type=main;sp
+>NA|A4IGN3 type=main;sp
 >NA|A4IH88 type=main;sp
 >NA|A4IH95 type=main;sp
 >NA|A9JSR5 type=main;sp
@@ -7336,7 +7338,9 @@
 >NA|P84387 type=main;sp
 >NA|Q0V9N5 type=main;sp
 >NA|Q0V9N5-2 type=additional;sp
+>NA|Q0VA20 type=main;sp
 >NA|Q0VFL4 type=main;sp
+>NA|Q5CZL1 type=main;sp
 >NA|Q6DIW0 type=main;sp
 >NA|Q6DJ35 type=main;sp
 >Prune2|Q0IHU9 type=main;sp
@@ -7348,8 +7352,12 @@
 >TEgg073c16.1|Q07G87 type=main;sp
 >TEgg073c16.1|Q07G87-2 type=additional;sp
 >TEgg082i12.1|Q28I03 type=main;sp
+>TEgg108c21.1|Q28C26 type=main;sp
+>TGas006m08.1|Q28DR4 type=main;sp
 >TGas015c11.1|Q5BKL1 type=main;sp
+>TGas081o10.1|Q28D37 type=main;sp
 >TGas113e22.1|Q6P823 type=main;sp
+>TNeu030m04.1|Q6P7L0 type=main;sp
 >TNeu058c09.1|B0BMJ2 type=main;sp
 >Tmem17-b|F6RWY9 type=main;sp
 >Trub2|Q5XGG2 type=main;sp
@@ -7873,6 +7881,7 @@
 >abcb5|Q6P3N4 type=additional;tr
 >abcb6|Q08D64 type=main;sp
 >abcb7|A0A6I8STI5 type=main;tr
+>abcb8|A0A8J1JPZ5 type=additional;tr
 >abcb8|B2GUP8 type=main;sp
 >abcb9|A0A6I8Q7N1 type=main;tr
 >abcb9|A0A8J1IS62 type=additional;tr
@@ -8269,6 +8278,7 @@
 >acvrl1|A0A6I8PLJ4 type=main;tr
 >acvrl1|A0A8J1J8K4 type=additional;tr
 >acy1.1|Q5M794 type=main;tr
+>acy3|A0A8J1J5E3 type=additional;tr
 >acy3|Q5BJ91 type=main;sp
 >acyp1|Q28FK7 type=main;sp
 >acyp2|Q5EBE1 type=main;sp
@@ -8519,6 +8529,7 @@
 >adh5|Q5HZT1 type=main;tr
 >adh6|Q5I0S0 type=main;tr
 >adh7|A0A8J0QK75 type=main;tr
+>adhfe1|A0A8J1JQ50 type=additional;tr
 >adhfe1|Q6P371 type=main;sp
 >adi1|Q6DIY2 type=main;sp
 >adipoq|F7EBM1 type=main;tr
@@ -8677,6 +8688,7 @@
 >agpat5|Q28E63 type=main;tr
 >agps|B1H1K4 type=main;tr
 >agr2|Q28ID5 type=main;sp
+>agr3|A0A8J1JMS1 type=additional;tr
 >agr3|Q6DJ58 type=main;sp
 >agrn|A0A6I8RCQ3 type=additional;tr
 >agrn|A0A8J0SJD3 type=additional;tr
@@ -9362,6 +9374,7 @@
 >ap2b1|A0A6I8S667 type=main;tr
 >ap2b1|F6X9S1 type=additional;tr
 >ap2m1|A0A8J1JHW1 type=additional;tr
+>ap2m1|A0A8J1JHW2 type=additional;tr
 >ap2m1|Q6P856 type=main;sp
 >ap2s1|Q28GD2 type=main;tr
 >ap3b1|A0A6I8RTV0 type=additional;tr
@@ -9777,6 +9790,7 @@
 >arl16|A0A8J1IWT4 type=additional;tr
 >arl16|Q28DQ6 type=main;tr
 >arl1|Q5BJ82 type=main;tr
+>arl2bp|A0A8J1JG32 type=additional;tr
 >arl2bp|Q5FW25 type=main;sp
 >arl2|F7BJL3 type=main;tr
 >arl3l2|A0A6I8Q1W7 type=main;tr
@@ -9822,6 +9836,7 @@
 >armh4|A0A8J0R4A8 type=additional;tr
 >armh4|A0A8J0R735 type=main;tr
 >armt1|A0A6I8RV51 type=main;tr
+>armt1|A0A8J1J9H1 type=additional;tr
 >armt1|Q6DJA3 type=main;sp
 >arnt2|A0A6I8SJ61 type=additional;tr
 >arnt2|A4IIQ7 type=additional;tr
@@ -9990,6 +10005,7 @@
 >asrgl1|A0A8J1JHM0 type=additional;tr
 >asrgl1|B1H0Z8 type=additional;tr
 >asrgl1|F7CIP2 type=additional;tr
+>ass1|A0A8J1ILB6 type=additional;tr
 >ass1|Q5M8Z6 type=main;sp
 >aste1|B2GUH0 type=main;tr
 >astl2a|A0A6I8SEU5 type=main;tr
@@ -10267,6 +10283,7 @@
 >atp6v1a|Q68F94 type=main;tr
 >atp6v1b1|B0BMI3 type=main;tr
 >atp6v1b2|Q0VGW2 type=main;tr
+>atp6v1c1|A0A8J1JQ40 type=additional;tr
 >atp6v1c1|Q6P4Y9 type=main;sp
 >atp6v1c2|F6YL50 type=main;tr
 >atp6v1d|A0A8J0PIY7 type=main;tr
@@ -10543,6 +10560,7 @@
 >bbs2|A0A6I8RGW5 type=additional;tr
 >bbs2|A0A8J0R2S6 type=additional;tr
 >bbs2|A0A8J0R370 type=main;tr
+>bbs4|B7ZTA0 type=additional;tr
 >bbs4|Q28G25 type=main;sp
 >bbs5|A4IHK9 type=main;tr
 >bbs7|F6VNP5 type=main;tr
@@ -10733,6 +10751,7 @@
 >bix1.2|A0A803JMB5 type=additional;tr
 >bix1.2|A0A8J1JHR6 type=additional;tr
 >bix1.2|B4F6G7 type=additional;tr
+>blcap|A0A8J1IWE8 type=additional;tr
 >blcap|Q5M8I8 type=main;sp
 >blk|A0A8J1JM28 type=main;tr
 >blmh|Q6GL32 type=main;tr
@@ -10822,6 +10841,7 @@
 >boc|F6VVR3 type=additional;tr
 >bod1l1|A0A6I8QVQ0 type=main;tr
 >bod1l1|A0A6I8SM46 type=additional;tr
+>bod1|A0A1B8XZD9 type=main;tr
 >bod1|Q68FB1 type=main;sp
 >bok|A0A6I8PV21 type=main;tr
 >bola1|A0A6I8PL74 type=main;tr
@@ -10927,6 +10947,7 @@
 >brk1|B4F6H1 type=main;tr
 >brms1l|A4II71 type=main;sp
 >brms1|A0A803K4R0 type=main;tr
+>brox|A0A8J1JL11 type=additional;tr
 >brox|A4IIL4 type=main;sp
 >brpf1|A0A6I8QTU9 type=additional;tr
 >brpf1|A0A6I8SV45 type=main;tr
@@ -11906,6 +11927,7 @@
 >ccdc160|A0A6I8Q442 type=additional;tr
 >ccdc160|A0A8J0SVV0 type=main;tr
 >ccdc166|A0A1B8XVX5 type=main;tr
+>ccdc167|A0A8J1JHG7 type=additional;tr
 >ccdc167|A4QNG1 type=main;sp
 >ccdc169|A0A6I8PUE6 type=main;tr
 >ccdc170|A0A6I8PL02 type=additional;tr
@@ -11938,6 +11960,7 @@
 >ccdc22|Q28G12 type=main;sp
 >ccdc24|A0A6I8PWN9 type=main;tr
 >ccdc24|A0A8J1JG02 type=additional;tr
+>ccdc25|A0A8J1JHY4 type=additional;tr
 >ccdc25|Q6GLE1 type=main;sp
 >ccdc27|A0A6I8RD58 type=main;tr
 >ccdc28a|A0A6I8QKN9 type=additional;tr
@@ -12265,6 +12288,7 @@
 >cdc42ep3|Q28CX6 type=main;tr
 >cdc42ep4|Q28IQ8 type=main;tr
 >cdc42se1|Q5BKH3 type=main;sp
+>cdc42se2-A|Q28EW5 type=main;sp
 >cdc42se2-B|Q28GG3 type=main;sp
 >cdc42se2l|A0A8J1JJ12 type=main;tr
 >cdc42|Q28BZ0 type=main;tr
@@ -12335,6 +12359,7 @@
 >cdhr5|A0A8J1JF32 type=additional;tr
 >cdin1|A0A8J0T644 type=additional;tr
 >cdin1|Q28HL3 type=main;sp
+>cdip1|A0A8J1ISJ5 type=additional;tr
 >cdip1|Q5BJ83 type=main;sp
 >cdipt|Q0IIY3 type=main;tr
 >cdk10|Q28I12 type=main;tr
@@ -12604,6 +12629,7 @@
 >cep192|A0A8J0T1V6 type=additional;tr
 >cep192|A0A8J1JPF2 type=additional;tr
 >cep192|F7BYX9 type=main;tr
+>cep19|A9UL78 type=main;sp
 >cep19|B7ZU71 type=main;tr
 >cep20|A0A6I8RSJ7 type=main;tr
 >cep250|A0A8J0R5S1 type=main;tr
@@ -12666,6 +12692,7 @@
 >cep95|Q0P4Y2 type=additional;tr
 >cep97|A0A6I8SAU7 type=main;tr
 >cept1|A0A8J0SMS2 type=additional;tr
+>cept1|B1H2K0 type=additional;tr
 >cept1|Q28H54 type=main;sp
 >cer1|Q07G34 type=main;sp
 >cercam|A0A6I8SZG6 type=main;tr
@@ -12800,6 +12827,7 @@
 >chchd6|A0A803J3M5 type=main;tr
 >chchd6|Q5FVV3 type=main;sp
 >chchd6|Q5FVV3-2 type=additional;sp
+>chchd7|B5DDX9 type=main;tr
 >chchd7|Q28GG4 type=main;sp
 >chd1|A0A6I8SD56 type=main;tr
 >chd1|A0A8J1IU83 type=additional;tr
@@ -12851,6 +12879,7 @@
 >chia|F6RI40 type=additional;tr
 >chic1|A0A6I8SA45 type=main;tr
 >chic2|A9ULJ0 type=main;tr
+>chid1|A0A8J1JGW2 type=additional;tr
 >chid1|Q66IL0 type=main;sp
 >chit1|F6RI22 type=main;tr
 >chka|A0A6I8RUY8 type=additional;tr
@@ -12989,6 +13018,7 @@
 >cipc|A0A803KI40 type=main;tr
 >cipc|B1WBI2 type=additional;tr
 >cir1|A0A6I8QIR8 type=main;tr
+>cirbp|A0A8J1JFA0 type=additional;tr
 >cirbp|Q28IQ9 type=main;sp
 >cisd1|Q6GLC0 type=main;tr
 >cisd2|A0A8J0SJ91 type=additional;tr
@@ -13216,11 +13246,13 @@
 >cmc1|A9UMU5 type=main;tr
 >cmc2|A0A6I8SZN1 type=main;tr
 >cmc2|A0A8J0SC16 type=additional;tr
+>cmc2|A0A8J1JDS8 type=additional;tr
 >cmc2|Q28BU7 type=main;sp
 >cmc4|A0A8J0R6M7 type=main;tr
 >cmip|A0A8J0QU85 type=additional;tr
 >cmip|A0A8J0QY86 type=main;tr
 >cmklr1|B4F6H7 type=main;tr
+>cml|Q66KL0 type=main;sp
 >cmpk1|A0A8J0QFY8 type=additional;tr
 >cmpk1|A0A8J0QH64 type=additional;tr
 >cmpk1|Q28H12 type=main;sp
@@ -13315,6 +13347,7 @@
 >cnot4|A0A8J1JAZ8 type=additional;tr
 >cnot4|Q5BKS6 type=additional;tr
 >cnot6l|B1H2X8 type=main;tr
+>cnot7|A0A8J1JLN1 type=additional;tr
 >cnot7|A4II96 type=main;sp
 >cnot8|Q07G84 type=main;tr
 >cnot9|Q6P819 type=main;sp
@@ -13582,6 +13615,7 @@
 >coq4|A0A803JFW9 type=main;tr
 >coq4|Q28CM7 type=main;sp
 >coq5|F6WBE0 type=main;tr
+>coq6|A0A8J1INX0 type=additional;tr
 >coq6|Q6DF46 type=main;sp
 >coq7|A0A803KKL4 type=main;tr
 >coq8a|F7A0V3 type=main;tr
@@ -14210,6 +14244,7 @@
 >cyb5r2|A0A8J0SBZ5 type=additional;tr
 >cyb5r2|Q5BJ68 type=main;sp
 >cyb5r3|B3DLY4 type=main;tr
+>cyb5r4|A0A8J1JKN3 type=additional;tr
 >cyb5r4|A0A8J1JLT5 type=additional;tr
 >cyb5r4|Q28CZ9 type=main;sp
 >cyba|F6ZRG8 type=main;tr
@@ -14456,6 +14491,7 @@
 >dcaf6|A0A8J0SQ30 type=additional;tr
 >dcaf6|Q0V9E3 type=additional;tr
 >dcaf7|F6PSI0 type=main;tr
+>dcaf8|A0A8J1ILH7 type=additional;tr
 >dcaf8|Q28I90 type=main;sp
 >dcakd|A4IH68 type=main;sp
 >dcbld1|A0A8J0SDY3 type=additional;tr
@@ -14712,6 +14748,7 @@
 >dffb|B1WBL0 type=main;tr
 >dgat1|A0A803JY67 type=main;tr
 >dgat2l6|F6TLW5 type=main;tr
+>dgat2|A0A8J1J1E6 type=additional;tr
 >dgat2|Q6P342 type=main;sp
 >dgcr2|A0A8J0SL11 type=additional;tr
 >dgcr2|A0A8J0SNM8 type=additional;tr
@@ -14762,6 +14799,7 @@
 >dhcr24|Q28DA7 type=main;tr
 >dhcr7|A0A803JK05 type=main;tr
 >dhcr7|A0A8J1JD58 type=additional;tr
+>dhcr7|A0A8J1JD60 type=additional;tr
 >dhcr7|Q6P4M0 type=main;sp
 >dhdds|A9ULI1 type=main;tr
 >dhdh|B1WBL2 type=additional;tr
@@ -14873,6 +14911,7 @@
 >dis3l2|A0A6I8R0A9 type=main;tr
 >dis3l2|A0A803JTS0 type=additional;tr
 >dis3l2|A0A8J1JKZ0 type=additional;tr
+>dis3l2|A0A8J1JM38 type=additional;tr
 >dis3l2|Q0V9R3 type=main;sp
 >dis3l|Q0P4R5 type=main;sp
 >dis3|B1WAW3 type=main;tr
@@ -15319,6 +15358,7 @@
 >draxin|A0A803J4P2 type=main;tr
 >drc1|A0A8J1JMA0 type=main;tr
 >drc3|B3DM08 type=main;tr
+>drc7|A0A8J1JDV1 type=additional;tr
 >drc7|A0A8J1JGC4 type=additional;tr
 >drc7|Q0V9S9 type=main;sp
 >drd1c|F6WET9 type=main;tr
@@ -15432,6 +15472,7 @@
 >dtymk|Q6DF36 type=main;tr
 >duox1|A0A6I8PSX5 type=main;tr
 >duox2|F7ELQ0 type=main;tr
+>duoxa1|A0A8J1JA83 type=additional;tr
 >duoxa1|Q0P4G7 type=main;sp
 >dus1l|A0A8J0QSM0 type=main;tr
 >dus2|A0JP84 type=additional;tr
@@ -15490,6 +15531,7 @@
 >dxo|A0A8J1ING6 type=additional;tr
 >dydc1|F6URR2 type=main;tr
 >dym|A0A6I8RQT4 type=main;tr
+>dym|A0A8J1JKU9 type=additional;tr
 >dym|Q28BM0 type=main;sp
 >dync1i1|A8WGE7 type=main;tr
 >dync1i2|A0A6I8QJR2 type=additional;tr
@@ -15604,6 +15646,7 @@
 >ecel1|A0A6I8RZA9 type=main;tr
 >ech1|Q6DJA5 type=main;tr
 >echdc1|A0A803JQY9 type=main;tr
+>echdc1|A0A8J1JI46 type=additional;tr
 >echdc1|Q28C91 type=main;sp
 >echdc2|A9ULH7 type=main;tr
 >echdc3|A0A6I8SV53 type=main;tr
@@ -15826,11 +15869,13 @@
 >eif2d|A0A8J0SEY7 type=additional;tr
 >eif2d|A0A8J0SEZ2 type=additional;tr
 >eif2d|Q6P1U9 type=main;tr
+>eif2s1|A0A8J1IL56 type=additional;tr
 >eif2s1|Q6GL89 type=main;sp
 >eif2s2|Q6P7N2 type=main;tr
 >eif2s3|Q5I098 type=main;tr
 >eif3a|A4II09 type=main;sp
 >eif3b|A0A8J0PIE0 type=main;tr
+>eif3c|A0A8J1IS51 type=additional;tr
 >eif3c|Q6P1V4 type=main;sp
 >eif3d|Q6P8G0 type=main;sp
 >eif3e|Q6P7L9 type=main;sp
@@ -16145,6 +16190,7 @@
 >entrep1|A0A6I8PYG7 type=main;tr
 >entrep2|Q0V9M1 type=main;tr
 >eny2|B2RYZ5 type=main;sp
+>eogt|A0A8J1JGF6 type=additional;tr
 >eogt|Q08CY9 type=main;sp
 >eomes|B3DL32 type=main;tr
 >ep300|A0A8J0QK55 type=additional;tr
@@ -16257,6 +16303,7 @@
 >ephx1|B2GUB2 type=main;tr
 >ephx2|A0A8J0SNP7 type=additional;tr
 >ephx2|Q6DJ15 type=main;tr
+>ephx3|A0A8J1J7S5 type=additional;tr
 >ephx3|Q0IIS3 type=main;sp
 >ephx4|A0A6I8SN60 type=main;tr
 >epm2a|A0A803J6D5 type=main;tr
@@ -16737,6 +16784,7 @@
 >fam161b|A0A803J5F7 type=additional;tr
 >fam162a|A0A8J1J5L4 type=main;tr
 >fam162b|A0A6I8S9W4 type=main;tr
+>fam163b|A0A1B8Y0K4 type=main;tr
 >fam163b|Q0VFM5 type=main;sp
 >fam166b|A8E5W8 type=main;sp
 >fam166c|A4II40 type=main;sp
@@ -16758,6 +16806,7 @@
 >fam171a2|F6SPR7 type=main;tr
 >fam172a|A0A6I8QNW7 type=main;tr
 >fam172a|A0A6I8R0K8 type=additional;tr
+>fam172a|A0A8J1J7F7 type=additional;tr
 >fam172a|A0A8J1J7F9 type=additional;tr
 >fam172a|F6VZT2 type=main;tr
 >fam172a|Q6DIP8 type=main;sp
@@ -16848,6 +16897,7 @@
 >fam83f|A0A6I8QNA4 type=main;tr
 >fam83g|A0A6I8RMM3 type=main;tr
 >fam83h|A0A8J1JN89 type=additional;tr
+>fam83h|A0A8J1JRZ0 type=additional;tr
 >fam83h|A9JRM0 type=main;sp
 >fam89a|A0A6I8RSS1 type=main;tr
 >fam8a1|A0A8J0QL63 type=main;tr
@@ -17232,6 +17282,7 @@
 >fibcd1|Q0P4P2 type=main;sp
 >fibin|A0A8J0QSB4 type=main;tr
 >fibp|A0A6I8R8N5 type=main;tr
+>ficd|A0A8J1J2E7 type=additional;tr
 >ficd|B4F6I5 type=main;sp
 >fig4|A0A8J1JIQ9 type=additional;tr
 >fig4|A0A8J1JIR3 type=main;tr
@@ -17358,6 +17409,7 @@
 >fmod|F6RIJ3 type=main;tr
 >fmr1|A0A8J0SSP7 type=additional;tr
 >fmr1|Q6GLC9 type=main;sp
+>fmr1|Q6GLC9-2 type=additional;sp
 >fn1|A0A6I8RZD0 type=additional;tr
 >fn1|A0A6I8SIQ2 type=additional;tr
 >fn1|A0A8J0SNK5 type=additional;tr
@@ -17465,6 +17517,7 @@
 >foxj1.2|Q66IG8 type=main;sp
 >foxj1|Q5M7N6 type=main;sp
 >foxj2|A0A803JN51 type=main;tr
+>foxj2|A0A8J1JSF1 type=additional;tr
 >foxj2|Q28EM1 type=main;sp
 >foxj3|A0A8J0SPL7 type=additional;tr
 >foxj3|A8E4V8 type=main;tr
@@ -17483,6 +17536,7 @@
 >foxn4|A4IHZ1 type=main;tr
 >foxn5|Q28H65 type=main;sp
 >foxo1|A0A6I8QJP8 type=main;tr
+>foxo1|A0A8J1J1N2 type=additional;tr
 >foxo1|Q66JJ0 type=main;sp
 >foxo3|F7DZ24 type=main;tr
 >foxo4|A0A6I8SUH1 type=additional;tr
@@ -17812,6 +17866,7 @@
 >galns|A0A6I8QGZ3 type=main;tr
 >galns|A0A8J0SLE9 type=additional;tr
 >galnt10|Q0IIR5 type=main;tr
+>galnt11|A0A8J1JMR8 type=additional;tr
 >galnt11|Q6DJR8 type=main;sp
 >galnt12|F7CYR6 type=main;tr
 >galnt13|A0A7D9NLT9 type=main;tr
@@ -18114,6 +18169,7 @@
 >gja3|B0BM18 type=main;tr
 >gja4|Q0V990 type=main;sp
 >gja5|A0A803JXB7 type=main;tr
+>gja7|A0A1B8Y255 type=main;tr
 >gja8|A0A8J0R7W8 type=main;tr
 >gja8|A0A8J1J398 type=additional;tr
 >gja9|A0A6I8R8Z4 type=main;tr
@@ -18179,6 +18235,7 @@
 >glrb|Q0VA59 type=main;tr
 >glrx2|A0A6I8SH06 type=main;tr
 >glrx2|Q28IG0 type=main;tr
+>glrx3|A0A8J1JSU0 type=additional;tr
 >glrx3|Q28ID3 type=main;sp
 >glrx5|Q6DJ11 type=main;tr
 >glrx|Q28I60 type=main;tr
@@ -18456,6 +18513,7 @@
 >gpr160|A0A8J0SMC7 type=main;tr
 >gpr160|Q28HI6 type=additional;tr
 >gpr160|Q6P327 type=additional;tr
+>gpr161|A0A8J1J4L7 type=additional;tr
 >gpr161|B3DM66 type=main;sp
 >gpr162|A0A6I8RLJ8 type=main;tr
 >gpr171|A0A803KB54 type=main;tr
@@ -18930,6 +18988,7 @@
 >hapln1|F6QL53 type=main;tr
 >hapln3|Q28ET6 type=main;tr
 >hapln4|A0A6I8SXF2 type=main;tr
+>hapstr1|A8WGV9 type=main;tr
 >hapstr1|Q28HY5 type=main;sp
 >harbi1|F6XR96 type=main;tr
 >hars2|F7A0W8 type=main;tr
@@ -19038,6 +19097,7 @@
 >heatr4|A0A8J1IQQ1 type=additional;tr
 >heatr5a|A0A6I8QC90 type=main;tr
 >heatr5a|A0JP94 type=main;sp
+>heatr5b|A0A8J1JJR9 type=additional;tr
 >heatr5b|A1A5F2 type=main;sp
 >heatr6|A0A6I8SX30 type=main;tr
 >hebp1|Q6DJ66 type=main;sp
@@ -19280,6 +19340,7 @@
 >hnrnpc|A0A6I8PXC1 type=main;tr
 >hnrnpc|A0A8J0SJY3 type=additional;tr
 >hnrnpc|Q6DET1 type=additional;tr
+>hnrnpdl|A0A8J1JA02 type=additional;tr
 >hnrnpdl|Q640A2 type=main;sp
 >hnrnpd|A0A803KL05 type=main;tr
 >hnrnpd|A0A8J0SLT5 type=additional;tr
@@ -19560,6 +19621,7 @@
 >huwe1|A0A8J1ITF5 type=additional;tr
 >huwe1|A0A8J1IU77 type=additional;tr
 >huwe1|A0A8J1IU82 type=additional;tr
+>hvcn1|A0A8J1JB22 type=additional;tr
 >hvcn1|Q5M8L8 type=main;sp
 >hyal1|A0A6I8SP25 type=main;tr
 >hyal2|A0A6I8QK29 type=additional;tr
@@ -19677,6 +19739,7 @@
 >ift140|A0A6I8PZU0 type=main;tr
 >ift140|A9JTK8 type=additional;tr
 >ift172|A0A803JHS7 type=main;tr
+>ift20|A0A8J1J1M3 type=additional;tr
 >ift20|Q66KL7 type=main;sp
 >ift22|Q5M8K8 type=main;sp
 >ift27|B1H1F4 type=main;tr
@@ -19913,6 +19976,7 @@
 >ing1|A4IGN5 type=main;tr
 >ing2|Q28FN9 type=main;tr
 >ing3|A0A8J1J761 type=additional;tr
+>ing3|A0A8J1J762 type=additional;tr
 >ing3|Q66KD5 type=main;sp
 >ing4|A0A6I8R8V9 type=main;tr
 >ing4|A0A8J0STI9 type=additional;tr
@@ -19984,6 +20048,7 @@
 >ints12|A0A8J0SRG4 type=additional;tr
 >ints12|Q0V9U1 type=main;sp
 >ints13|A0A803J8A1 type=main;tr
+>ints13|A0A8J1J750 type=additional;tr
 >ints13|Q6DIK0 type=main;sp
 >ints14|Q66KD9 type=main;sp
 >ints15|B7ZUG7 type=main;tr
@@ -20236,6 +20301,7 @@
 >jag1|A0A6I8SCZ7 type=main;tr
 >jag2|A0A6I8Q433 type=main;tr
 >jag2|A0A6I8REQ8 type=additional;tr
+>jagn1|A0A8J1JD71 type=additional;tr
 >jagn1|Q6NVQ1 type=main;sp
 >jak1|F6T0H5 type=main;tr
 >jak1|F7DKS0 type=main;tr
@@ -20899,6 +20965,7 @@
 >klhl21|L7MUI0 type=main;tr
 >klhl22|A0A8J0SIC3 type=additional;tr
 >klhl22|A0A8J0ST21 type=additional;tr
+>klhl22|A0A8J1JKF9 type=additional;tr
 >klhl22|Q08CY1 type=main;sp
 >klhl23|F7AJI3 type=main;tr
 >klhl24|Q0V9R8 type=main;tr
@@ -21077,6 +21144,7 @@
 >ktn1|B3DL66 type=additional;tr
 >ktn1|F6ZPI0 type=additional;tr
 >kxd1|A0A8J0QRV8 type=additional;tr
+>kxd1|A0A8J1JYH8 type=additional;tr
 >kxd1|Q0V9C8 type=main;sp
 >kyat1|A0A6I8SD09 type=main;tr
 >kyat1|A0A8J0SVD0 type=additional;tr
@@ -21414,6 +21482,7 @@
 >lin52|A0A8J0SVL2 type=additional;tr
 >lin52|A9UMU3 type=main;tr
 >lin54|A0A6I8SFM5 type=main;tr
+>lin54|A0A8J1JIK1 type=additional;tr
 >lin54|Q0IHV2 type=main;sp
 >lin7a|A0A803K808 type=main;tr
 >lin7a|A0A8J1J6H8 type=additional;tr
@@ -21451,6 +21520,7 @@
 >llgl1|A0A8J0R7S5 type=additional;tr
 >llgl2|A4II87 type=main;tr
 >llgl2|Q5EGD5 type=additional;tr
+>llph|A0A8J1J715 type=additional;tr
 >llph|Q6NVR5 type=main;sp
 >lman1l|Q28HN5 type=main;tr
 >lman1|A0A8J0QGV3 type=main;tr
@@ -21656,6 +21726,7 @@
 >lrrc3b|A0A6I8PSY9 type=main;tr
 >lrrc3c|A0A803KA90 type=main;tr
 >lrrc3|A0A803KDM6 type=main;tr
+>lrrc40|A0A8J1JDF2 type=additional;tr
 >lrrc40|A0A8J1JDF5 type=additional;tr
 >lrrc40|Q5M8G4 type=main;sp
 >lrrc41|A0A6I8RN67 type=main;tr
@@ -21903,6 +21974,7 @@
 >lyrm2|B3DLF3 type=main;sp
 >lyrm4|A0A6I8Q5L5 type=main;tr
 >lyrm7|A0JPA6 type=main;sp
+>lyrm9|A0A8J1J178 type=additional;tr
 >lyrm9|B4F6X2 type=main;sp
 >lyset|Q5HZT8 type=main;sp
 >lyset|Q5HZT8-2 type=additional;sp
@@ -21919,6 +21991,7 @@
 >lztfl1|A9ULJ7 type=main;tr
 >lztr1|B2GUN2 type=main;tr
 >lzts1|B1H2M9 type=main;tr
+>lzts2|A0A8J1JSG8 type=additional;tr
 >lzts2|Q6DIS8 type=main;sp
 >lzts3|A0A803J304 type=main;tr
 >lzts3|F6X156 type=additional;tr
@@ -22208,6 +22281,7 @@
 >map6|A0A6I8SSX2 type=main;tr
 >map6|A0A803K0I9 type=additional;tr
 >map6|A0A8J0SDQ7 type=additional;tr
+>map6|A0A8J1J991 type=additional;tr
 >map6|B0S4Q5 type=main;sp
 >map7d1|A0A8J1J4F2 type=additional;tr
 >map7d1|F7CXB2 type=main;tr
@@ -22580,6 +22654,7 @@
 >mcmbp|A0A8J1JSL3 type=additional;tr
 >mcmbp|A0A8J1JV18 type=additional;tr
 >mcmbp|Q28DV7 type=main;sp
+>mcmbp|Q28DV7-2 type=additional;sp
 >mcmdc2|A0A8J0SGY5 type=main;tr
 >mcoln1|Q5M7Q9 type=main;tr
 >mcoln2|A0A8J0QK14 type=main;tr
@@ -22691,6 +22766,7 @@
 >med25|A0A8J0SSH1 type=additional;tr
 >med25|A0A8J1JRT5 type=additional;tr
 >med25|A0A8J1JRV7 type=additional;tr
+>med25|A0A8J1JU98 type=additional;tr
 >med25|A0A8J1JVK2 type=additional;tr
 >med25|A4IHD9 type=main;sp
 >med26|F6REY1 type=main;tr
@@ -22746,6 +22822,7 @@
 >meis2|A0JPD2 type=additional;tr
 >meis3|A0A8J0SVA0 type=additional;tr
 >meis3|Q6DIF3 type=main;sp
+>melk|A0A8J1JFE7 type=additional;tr
 >melk|Q28GW8 type=main;sp
 >meltf|A0A8J0QP26 type=main;tr
 >mel|A0A6I8RCP9 type=main;tr
@@ -23058,6 +23135,7 @@
 >minar2|A0A6I8Q300 type=main;tr
 >mindy1|A0A6I8PUD6 type=main;tr
 >mindy2|A0A8J0QU02 type=main;tr
+>mindy3|A0A8J1JMQ1 type=additional;tr
 >mindy3|Q6NX27 type=main;sp
 >mindy4b|A0A8J0SU92 type=additional;tr
 >mindy4b|A0A8J1JK21 type=main;tr
@@ -23107,6 +23185,7 @@
 >mki67|A0A8J1JZ08 type=additional;tr
 >mkks|A0A6I8Q5R7 type=main;tr
 >mkln1|F7BJN0 type=main;tr
+>mknk1|A0A8J1JGV2 type=additional;tr
 >mknk1|Q28HV8 type=main;tr
 >mknk1|Q66JF3 type=main;sp
 >mknk2|Q66I46 type=main;sp
@@ -23378,6 +23457,7 @@
 >mre11|A9UMK4 type=additional;tr
 >mre11|B7ZUF6 type=main;tr
 >mreg|A0A6I8Q5U3 type=main;tr
+>mreg|A0A8J1ISF6 type=additional;tr
 >mreg|F7D1N3 type=main;tr
 >mreg|Q0P4L7 type=main;sp
 >mrgbp|Q561N9 type=main;tr
@@ -23735,6 +23815,7 @@
 >mus81|A0A6I8R1Y3 type=main;tr
 >mus81|A0A8J0SLA2 type=additional;tr
 >mus81|A0A8J0T2G0 type=additional;tr
+>mus81|A0A8J1JDE7 type=additional;tr
 >mus81|Q640B4 type=main;sp
 >musk|F6X9J2 type=main;tr
 >mustn1|A8E5X0 type=main;tr
@@ -24065,6 +24146,7 @@
 >nab1|A0A803J6S7 type=additional;tr
 >nab1|B1H0X5 type=main;tr
 >nab2|B0JZC9 type=main;tr
+>nabp2|A0A8J1J513 type=additional;tr
 >nabp2|Q66K94 type=main;sp
 >nacad|A0A8J0SNX3 type=main;tr
 >nacad|A7MC62 type=additional;tr
@@ -24326,6 +24408,7 @@
 >ndfip2|A0A8J0PIS5 type=main;tr
 >ndnfl1.1|F6UG11 type=main;tr
 >ndnfl1.1|F7BFF8 type=main;tr
+>ndnf|A0A8J1JN71 type=additional;tr
 >ndnf|A4IIK7 type=main;sp
 >ndor1|B1H2T7 type=main;tr
 >ndp|A0A6I8R5F9 type=main;tr
@@ -24926,6 +25009,7 @@
 >nol11|A0A803J217 type=additional;tr
 >nol11|A0A8J1IXQ7 type=additional;tr
 >nol11|A0A8J1J0T0 type=main;tr
+>nol12|A0A8J1JFV9 type=additional;tr
 >nol12|A0A8J1JGW8 type=additional;tr
 >nol12|Q640V3 type=main;sp
 >nol4l|F6UTC7 type=main;tr
@@ -25353,6 +25437,7 @@
 >nudt15|A0A6I8SF49 type=main;tr
 >nudt16|A0A8J0SU97 type=main;tr
 >nudt17|A0A8J1IMP8 type=additional;tr
+>nudt17|A0A8J1IMQ0 type=additional;tr
 >nudt17|A0A8J1IQ09 type=additional;tr
 >nudt17|Q5M8V2 type=main;sp
 >nudt18|A0A803JA38 type=main;tr
@@ -25544,6 +25629,7 @@
 >odf2|A4IHP0 type=additional;tr
 >odf2|F6UJC0 type=main;tr
 >odf3l1|F7BVB4 type=main;tr
+>odf3|B7ZSX2 type=main;tr
 >odf3|Q5EB30 type=main;sp
 >odr4|A0A8J0R2S8 type=additional;tr
 >odr4|A0A8J0T0K6 type=additional;tr
@@ -26577,6 +26663,7 @@
 >perp|A4IHS5 type=additional;tr
 >perp|B7ZTK5 type=main;tr
 >pes1|A0A8J0SYV7 type=additional;tr
+>pes1|A0A8J1J9I4 type=additional;tr
 >pes1|Q6DEV3 type=main;sp
 >pet100|A0A8J0QY60 type=main;tr
 >pex10|A0A6I8Q8F7 type=main;tr
@@ -26917,6 +27004,7 @@
 >pigh|A0A6I8Q148 type=main;tr
 >pigk|Q05AQ6 type=main;tr
 >pigl|A0A6I8QB74 type=main;tr
+>pigm|A0A8J1JQ71 type=additional;tr
 >pigm|A0A8J1JRH3 type=additional;tr
 >pigm|Q66IJ4 type=main;sp
 >pign|A0A6I8PUF0 type=main;tr
@@ -27105,6 +27193,7 @@
 >pla2g2d|A0A803K1C6 type=main;tr
 >pla2g2e|F6Z7M8 type=main;tr
 >pla2g3|F6VH26 type=main;tr
+>pla2g4a|A0A8J1JCW2 type=additional;tr
 >pla2g4a|B1WAZ6 type=main;sp
 >pla2g4d|A0A6I8R706 type=main;tr
 >pla2g4d|F6V411 type=additional;tr
@@ -27339,6 +27428,7 @@
 >plpp5|B2GUF2 type=main;tr
 >plpp6|A4IIM0 type=main;tr
 >plpp7|Q0P4J5 type=main;tr
+>plppr1|A0A8J1JHX1 type=additional;tr
 >plppr1|A4II83 type=main;sp
 >plppr2|A0A8J0QSK7 type=additional;tr
 >plppr2|A0A8J1JF72 type=main;tr
@@ -27554,6 +27644,7 @@
 >pom121|F6SWK0 type=main;tr
 >pomc|Q5M8F2 type=main;tr
 >pomgnt1|F7D9W4 type=main;tr
+>pomgnt2|A0A8J1JMT6 type=additional;tr
 >pomgnt2|Q5NDE6 type=main;sp
 >pomk|F7E5Y2 type=main;tr
 >pomp|Q6DES1 type=main;tr
@@ -28680,6 +28771,7 @@
 >qsox2|A0A803JMR6 type=additional;tr
 >qsox2|B2GUM8 type=main;tr
 >qtrt1|Q28HC6 type=main;sp
+>qtrt2|A0A8J1J1X2 type=additional;tr
 >qtrt2|Q28DX0 type=main;sp
 >r3hcc1l|A0A6I8T0A1 type=main;tr
 >r3hcc1|A0A8J0SHW7 type=main;tr
@@ -28864,6 +28956,7 @@
 >rad9b|A0A8J1IVQ6 type=additional;tr
 >radx|A0A6I8SPC9 type=main;tr
 >radx|F7CBF7 type=main;tr
+>rae1|A0A8J1IWR1 type=additional;tr
 >rae1|Q5FVA9 type=main;sp
 >raf1|A0A803JXH9 type=main;tr
 >raf1|Q28GW9 type=main;tr
@@ -29029,9 +29122,11 @@
 >rasef|Q08CX1 type=main;sp
 >rasgef1a|A0A6I8RYE1 type=main;tr
 >rasgef1a|A0JM95 type=main;sp
+>rasgef1a|B1H1C9 type=additional;tr
 >rasgef1b|A0A6I8QKQ6 type=main;tr
 >rasgef1b|A0A6I8RXW5 type=additional;tr
 >rasgef1b|A0A8J1JGD8 type=additional;tr
+>rasgef1b|B1H0X4 type=additional;tr
 >rasgef1b|G1K3F5 type=additional;tr
 >rasgef1b|Q28EC1 type=main;sp
 >rasgrf1|A0A6I8QW35 type=main;tr
@@ -30100,6 +30195,7 @@
 >rps2|Q68ER8 type=main;tr
 >rps3a|Q642T2 type=main;sp
 >rps3|Q6P8G2 type=main;tr
+>rps4x|A0A8J1IN17 type=main;tr
 >rps4|Q6PBC4 type=main;sp
 >rps5|Q28EJ8 type=main;tr
 >rps6ka1|A0A6I8QM95 type=additional;tr
@@ -30235,6 +30331,7 @@
 >rtkn|A4IIC8 type=main;tr
 >rtl9|A0A8J0SS83 type=main;tr
 >rtn1|A7MC64 type=main;sp
+>rtn1|A7MC64-2 type=additional;sp
 >rtn1|A8WGE1 type=main;tr
 >rtn2|Q4FZ58 type=main;sp
 >rtn2|Q4FZ58-2 type=additional;sp
@@ -30919,6 +31016,7 @@
 >serpinb1|Q5I0S8 type=main;sp
 >serpinb4|A0A7D9NKK6 type=main;tr
 >serpinb4|A0A8J1JR32 type=additional;tr
+>serpinb5|A0A8J1JRI8 type=additional;tr
 >serpinb5|Q5M8J5 type=main;sp
 >serpinb6|A0A803K991 type=main;tr
 >serpinb6|Q66KE4 type=additional;tr
@@ -31441,9 +31539,11 @@
 >slc1a7|A0A6I8RPW4 type=main;tr
 >slc20a1|Q5BL44 type=main;sp
 >slc20a2|A0A6I8R9M0 type=main;tr
+>slc20a2|A0A8J1JDV6 type=additional;tr
 >slc20a2|Q28E01 type=main;sp
 >slc22a13|A0A6I8SCD2 type=main;tr
 >slc22a15.1|A0A8J1J3X9 type=additional;tr
+>slc22a15.1|A0A8J1J4Y4 type=additional;tr
 >slc22a15.1|F6TDZ0 type=main;tr
 >slc22a15.2|A0A8J0SIZ2 type=main;tr
 >slc22a15.2|A0A8J1JVE8 type=additional;tr
@@ -31582,6 +31682,7 @@
 >slc29a3|A0A8J1JRN7 type=additional;tr
 >slc29a3|A4IFW1 type=additional;tr
 >slc2a10|A0A6I8Q6X1 type=additional;tr
+>slc2a10|A0A8J1IZ75 type=additional;tr
 >slc2a10|Q0P4G6 type=main;sp
 >slc2a11.2|A0A7D9NJX5 type=main;tr
 >slc2a11.3|A0A8J0QHP2 type=additional;tr
@@ -31712,6 +31813,7 @@
 >slc39a10|A0A6I8RFG7 type=main;tr
 >slc39a11|A0A8J0SQX6 type=additional;tr
 >slc39a11|A0A8J0SXA6 type=additional;tr
+>slc39a11|A0A8J1IYY2 type=additional;tr
 >slc39a11|Q28J44 type=main;sp
 >slc39a12|A0A6I8PMZ8 type=main;sp
 >slc39a13|A0A8J0T3E7 type=main;tr
@@ -31843,6 +31945,7 @@
 >slc5a6|A0A8J1JLK8 type=additional;tr
 >slc5a6|Q6DJR5 type=additional;tr
 >slc5a7|F7AVH2 type=main;tr
+>slc5a8.1|A0A8J0QHQ0 type=main;tr
 >slc5a8.1|A0A8J1JAE8 type=additional;tr
 >slc5a8|Q5BL81 type=main;sp
 >slc5a9|A0A6I8QAB7 type=additional;tr
@@ -32024,6 +32127,7 @@
 >smarca5|Q66JL4 type=main;tr
 >smarcad1|A0A8J1JED5 type=additional;tr
 >smarcad1|Q5FWR0 type=main;sp
+>smarcal1|A0A8J1ISP2 type=additional;tr
 >smarcal1|Q0P4U8 type=main;sp
 >smarcb1|Q6DFM1 type=main;sp
 >smarcc1|A0A8J0QYB8 type=main;tr
@@ -32088,6 +32192,7 @@
 >smim38|A0A8J1JH96 type=main;tr
 >smim3|A0A8J0SJI1 type=main;tr
 >smim7|Q6P317 type=main;sp
+>smim8|A0A8J1JI70 type=additional;tr
 >smim8|Q28GF4 type=main;sp
 >smn1|A0A8J0SZ32 type=additional;tr
 >smn1|A4QNA9 type=main;tr
@@ -32412,6 +32517,7 @@
 >sox6|B1H349 type=main;sp
 >sox7|Q28GD5 type=main;sp
 >sox8|A0A6I8S579 type=main;tr
+>sox9|A0A8J1IWP3 type=additional;tr
 >sox9|Q6F2E7 type=main;sp
 >sp110|A0A803JA80 type=main;tr
 >sp110|A0A803K3K0 type=additional;tr
@@ -32510,6 +32616,7 @@
 >spats2|A0A6I8S684 type=additional;tr
 >spats2|A0A8J0SEY9 type=additional;tr
 >spats2|Q6P3R0 type=main;tr
+>spc24|A0A8J1J6Z8 type=additional;tr
 >spc24|Q6P8A1 type=main;sp
 >spc25|A0A6I8RGJ2 type=main;tr
 >spc25|Q6DF39 type=main;sp
@@ -32627,6 +32734,7 @@
 >spr|A0A8J1IZB1 type=additional;tr
 >spr|B0BML7 type=main;sp
 >spsb1|A0A8J0QRI2 type=main;tr
+>spsb3|B1H148 type=main;tr
 >spsb3|Q28DT9 type=main;sp
 >spsb4|A0A6I8RXC8 type=main;tr
 >sptan1|A0A6I8QBU0 type=additional;tr
@@ -33595,6 +33703,7 @@
 >tatdn3|F6TI04 type=main;tr
 >tat|Q6DID9 type=main;tr
 >tax1bp1|A0A803JSW1 type=main;tr
+>tax1bp1|A0A8J1JMP7 type=additional;tr
 >tax1bp1|A0A8J1JQ44 type=additional;tr
 >tax1bp1|Q6P3P1 type=main;sp
 >tax1bp3|Q6P4W4 type=main;tr
@@ -33697,6 +33806,7 @@
 >tbr1|A0A803KJR1 type=main;tr
 >tbrg1|A0A6I8PNE7 type=main;tr
 >tbrg1|Q66IH2 type=main;sp
+>tbrg4|A0A8J1JRF7 type=additional;tr
 >tbrg4|Q6DJ55 type=main;sp
 >tbx15|A0A6I8RDF1 type=main;tr
 >tbx18|F6V9T9 type=main;tr
@@ -34035,6 +34145,7 @@
 >tfap4|A0A8J0SV57 type=additional;tr
 >tfap4|A0A8J0T3K8 type=additional;tr
 >tfap4|B3DM38 type=main;tr
+>tfb1m|B7ZTC1 type=main;tr
 >tfb1m|Q28HM1 type=main;sp
 >tfb2m|A0A803J4T1 type=main;tr
 >tfcp2l1|A0A8J1IXB6 type=main;tr
@@ -34061,6 +34172,7 @@
 >tff3.8|A0A803KDC0 type=main;tr
 >tfg|A0A8J0PF12 type=additional;tr
 >tfg|F6ZH27 type=main;tr
+>tfip11|A0A8J1JEY6 type=additional;tr
 >tfip11|Q0IIX9 type=main;sp
 >tfpi2|A0A803KIS5 type=main;tr
 >tfpt|Q5M8L1 type=main;tr
@@ -34207,6 +34319,7 @@
 >timd4|A0A8J1J9K5 type=additional;tr
 >timeless|A0A6I8PXH0 type=main;tr
 >timm10b|A0A803KA21 type=main;tr
+>timm10|A0A8J1J8X0 type=additional;tr
 >timm10|Q6P321 type=main;sp
 >timm13|Q28BN8 type=main;tr
 >timm17a|Q5RJU2 type=main;tr
@@ -34288,6 +34401,7 @@
 >tlk2|A0A8J0SB28 type=additional;tr
 >tlk2|A0A8J0SBP6 type=additional;tr
 >tlk2|A0A8J0SC18 type=additional;tr
+>tlk2|A0A8J1IWR3 type=additional;tr
 >tlk2|Q08CW1 type=main;sp
 >tll1|A0A6I8RRK9 type=main;tr
 >tll1|A0A8J1JDC8 type=additional;tr
@@ -34456,6 +34570,7 @@
 >tmem143|A0A7D9NJM7 type=main;tr
 >tmem144|B1WB31 type=main;tr
 >tmem145|A0A6I8SAG3 type=main;tr
+>tmem147|A0A8J1JSH3 type=additional;tr
 >tmem147|Q28FY5 type=main;sp
 >tmem147|Q28FY5-2 type=additional;sp
 >tmem14a|F6YYA8 type=main;tr
@@ -34517,6 +34632,7 @@
 >tmem198|A0A4X2QQI2 type=main;tr
 >tmem198|Q6DFQ7 type=main;sp
 >tmem199|F7EDY7 type=main;tr
+>tmem19|A0A8J1J9T4 type=additional;tr
 >tmem19|Q0P4L9 type=main;sp
 >tmem200a|A0A803JFI0 type=main;tr
 >tmem200b|A0A803JT71 type=main;tr
@@ -34735,6 +34851,7 @@
 >tnc|A0A6I8R917 type=main;tr
 >tnc|A0A6I8R996 type=additional;tr
 >tnc|F7DIV8 type=additional;tr
+>tnfaip1|A0A8J1J1W7 type=additional;tr
 >tnfaip1|Q28DC9 type=main;sp
 >tnfaip2|A0A6I8PYH2 type=main;tr
 >tnfaip6|F7EDU7 type=main;tr
@@ -35337,6 +35454,7 @@
 >trip12|A0A8J0SWW3 type=additional;tr
 >trip12|A0A8J0SXI2 type=additional;tr
 >trip12|A0A8J0SY59 type=additional;tr
+>trip12|A0A8J1JHQ5 type=additional;tr
 >trip12|B4F6W9 type=main;sp
 >trip12|B4F6W9-2 type=additional;sp
 >trip12|L7N494 type=main;tr
@@ -35875,6 +35993,7 @@
 >ube2z|Q66KB0 type=main;sp
 >ube3a|F6U235 type=main;tr
 >ube3a|Q6NVK6 type=additional;tr
+>ube3b|A0A8J1JK47 type=additional;tr
 >ube3b|Q08CZ0 type=main;sp
 >ube3c|A0A803KH81 type=main;tr
 >ube3d|A0A8J1JK59 type=additional;tr
@@ -36193,6 +36312,7 @@
 >usp15|A0A8J1J938 type=additional;tr
 >usp15|F6Z5C0 type=main;sp
 >usp15|F6Z5C0-2 type=additional;sp
+>usp16|A0A8J0SC33 type=additional;tr
 >usp16|Q0VA64 type=main;sp
 >usp18|A0A1B8Y9B0 type=main;tr
 >usp18|A0A8J0SQA5 type=additional;tr
@@ -36321,6 +36441,7 @@
 >uts2r|F6WBX6 type=main;tr
 >uts2|A0A803JKK6 type=main;tr
 >uvrag|A0A6I8QLG4 type=main;tr
+>uvssa|A0A8J0SC74 type=additional;tr
 >uvssa|F7AEX0 type=main;sp
 >uxs1|Q6DF08 type=main;sp
 >uxt|A0A803K2Y1 type=main;tr
@@ -36715,6 +36836,7 @@
 >wdr89|Q28I78 type=main;tr
 >wdr90|A0A8J0T6N5 type=additional;tr
 >wdr90|A0JP70 type=main;sp
+>wdr91|A0A8J1JBA0 type=additional;tr
 >wdr91|Q05B30 type=main;sp
 >wdr93|A0A8J0SA43 type=main;tr
 >wdr97|A0A6I8S733 type=main;tr
@@ -36950,6 +37072,7 @@
 >ybx3|A0A8J0STD8 type=additional;tr
 >ybx3|Q5EAM6 type=main;tr
 >ydjc|A0A8J0SJ02 type=additional;tr
+>ydjc|A0A8J1J6U1 type=additional;tr
 >ydjc|A0A8J1J6V0 type=additional;tr
 >ydjc|Q6DJC2 type=main;sp
 >yeats2|A0A6I8ST98 type=main;tr
