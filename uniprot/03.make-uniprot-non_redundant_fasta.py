@@ -2,6 +2,7 @@
 import sys
 
 filename_fa = sys.argv[1]
+filename_base = '.'.join(filename_fa.split('.')[:-1])
 
 seq_list = dict()
 seq_h = ''
@@ -9,6 +10,7 @@ f_seq = open(filename_fa, 'r')
 if filename_fa.endswith('.gz'):
     import gzip
     f_seq = gzip.open(filename_fa, 'rt')
+    filename_base = '.'.join(filename_fa.split('.')[:-2])
 
 for line in f_seq:
     if line.startswith('>'):
@@ -27,32 +29,38 @@ for tmp_h in seq_list.keys():
 
 count_unique = 0
 count_multi = 0
-filename_base = '.'.join(filename_fa.split('.')[:-1])
 
 f_nr = open('%s_NR.fa' % filename_base, 'w')
 f_nr_log = open('%s_NR.log' % filename_base, 'w')
-for tmp_seq in seq2h:
+for tmp_seq in seq2h.keys():
     rep_h = ''
+    h_list = sorted(seq2h[tmp_seq])
+
     tmp_name_list = []
-    for tmp_h in seq2h[tmp_seq]:
+    for tmp_h in h_list:
         if rep_h == '':
             rep_h = tmp_h
-        tmp_name = tmp_h.split('|')[0]
+
+        tmp_name = tmp_h.split()[0].split('|')[0]
+        tmp_type = tmp_h.split()[1]
         tmp_name_list.append(tmp_name)
+
         # Xenopus_laevis specific criteria
         if tmp_name.endswith('.L') or tmp_name.endswith('.S'):
             rep_h = tmp_h
         if tmp_name != 'NA':
-            rep_h = tmp_h
+            if tmp_type.find('main') >= 0:
+                rep_h = tmp_h
 
     f_nr.write('>%s\n%s\n' % (rep_h, "\n".join(seq_list[rep_h])))
     if len(seq2h[tmp_seq]) > 1:
         if len(set(tmp_name_list)) == 1:
-            f_nr_log.write('Duplicate\t%s\t%s\n' %
-                           (rep_h, ';;'.join(sorted(seq2h[tmp_seq]))))
+            for tmp in h_list:
+                f_nr_log.write('Duplicate\t%s\t%s\n' % (rep_h, tmp))
         else:
-            f_nr_log.write('MultiName\t%s\t%s\n' %
-                           (rep_h, ';;'.join(sorted(seq2h[tmp_seq]))))
+            for tmp in h_list:
+                f_nr_log.write('MultiName\t%s\t%s\n' % (rep_h, tmp))
+
         count_multi += 1
     else:
         count_unique += 1
