@@ -1,6 +1,6 @@
 # NCBI resources for *Xenopus tropicalis*
 
-* Official RefSeq release : https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/
+* Official RefSeq release: https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/
   * [v10 genome (GCF_000004195.4)](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/GCF_000004195.4_UCB_Xtro_10.0/)
   * [v9 genome (GCF_000004195.3)](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/GCF_000004195.3_Xenopus_tropicalis_v9.1/)
   * [v7 genome (GCF_000004195.2)](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_other/Xenopus_tropicalis/all_assembly_versions/GCF_000004195.2_Xtropicalis_v7/)
@@ -21,7 +21,7 @@
 
 ## Procedures
 
-* Download required files from NCBI.
+* Download the required files from NCBI.
 
   ``` ./01.download-refseq-stable.sh ```
 
@@ -31,27 +31,27 @@
 
   ``` ./02.reformat-ncbi_prot_fasta.py <faa file> <gff file> <output name> ```
 
-  Original header of protein FASTA file looks like:
-  
-  ``` >NP_001116955.1 DNA-binding protein RFX2 [Xenopus tropicalis] ```
+  ```
+  [Original header]
+  >NP_001116955.1 DNA-binding protein RFX2 [Xenopus tropicalis]
 
-  New header of protein FASTA file looks like (all other associated IDs are from GFF3):
-  
-  ``` >rfx2|NP_001116955.1|NM_001123483.1|GeneID:100144734 xb_gene_id=XB-GENE-991774 ```
+  [New header]  
+  >rfx2|NP_001116955.1|NM_001123483.1|GeneID:100144734 xb_gene_id=XB-GENE-991774
+  ```
 
-  * All mitochondrial proteins do not have proper rna IDs. See [the log file](./XENTR_xenTro10.refseq104.prot_all.log).
+  * All mitochondrial proteins do not have proper RNA IDs. See [the log file](./XENTR_xenTro10.refseq104.prot_all.log).
 
-* Change the header format of rna sequences (similar to protein sequences).
+* Change the header format of RNA sequences (similar to protein sequences).
   
   ``` ./03.reformat-ncbi_rna_fasta.py <fna file> <gff file> <output name> ```
   
-  Original header of protein FASTA file looks like:
-  
-  ``` >NM_001123483.1 Xenopus tropicalis regulatory factor X2 (rfx2), mRNA ```
+  ```
+  [Original header]
+  >NM_001123483.1 Xenopus tropicalis regulatory factor X2 (rfx2), mRNA
 
-  New header of protein FASTA file looks like (all other associated IDs are from GFF3):
-  
-  ``` >rfx2|NM_001123483.1|GeneID:100144734 xb_gene_id=XB-GENE-991774 type=mRNA ```
+  [New header]
+  >rfx2|NM_001123483.1|GeneID:100144734 xb_gene_id=XB-GENE-991774 type=mRNA
+  ```
 
   * All sequences annotated as a 'guide_RNA' were discarded.
 
@@ -59,8 +59,8 @@
 
   ``` ./04.reformat-ncbi_cds_fasta.py <cds fna file> <protein faa file (processed .prot_all.fa)> ```
   
-  * 72 genes (mostly related to immune system) do not have protein IDs. See [the log file](./XENTR_xenTro10.refseq104.cds_all.log)
-  * The following 6 genes have split CDS sequences (need further investigations). 
+  * 72 genes (mostly related to the immune system) do not have protein IDs. See [the log file](./XENTR_xenTro10.refseq104.cds_all.log)
+  * The following six genes have split CDS sequences (need further investigations). 
     * LOC100216185|GeneID:100216185|NP_001135626.1 : NC_030685.2, NW_022279350.1
     * slc25a34|GeneID:100216146|NP_001135591.1 : NW_022279421.1, NW_022279431.1
     * slc31a1|GeneID:407919|NP_001001238.1 : NC_030684.2, NW_022279440.1
@@ -73,6 +73,6 @@
   ``` ./05.make-refseq-non_redundant_fasta.py <protein faa file (processed .prot_all.fa)> ```
 
   * 45,093 all protein sequences --> 37,591 non-redundant protein sequences.
-    * 7,209 sequences were represented by a sequence of same gene (gene symbol and Gene ID are matched).
-    * 293 sequences were represented by a sequence of different gene (gene symbol and GeneID are not matched).
+    * 7,209 sequences were represented by a sequence of the same gene (gene symbol and Gene ID are matched).
+    * 293 sequences were represented by a sequence of different genes (gene symbol and GeneID are not matched).
     * See [the log file](./XENTR_xenTro10.refseq104.prot_all_NR.log) for more details. 
