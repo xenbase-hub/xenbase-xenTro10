@@ -814,7 +814,7 @@ LOC100489510	GeneID:100489510	XB-GENE-29079763	P2Y purinoceptor 8
 LOC100489516	GeneID:100489516	XB-GENE-29079767	chymotrypsin B
 LOC100489518	GeneID:100489518	XB-GENE-29079771	Ig-like V-type domain-containing protein FAM187A
 LOC100489533	GeneID:100489533	XB-GENE-29079775	oocyte zinc finger protein XlCOF7.1-like
-LOC100489535	GeneID:100489535	NA	E3 ubiquitin/ISG15 ligase TRIM25
+LOC100489535	GeneID:100489535	XB-GENE-29100103	E3 ubiquitin/ISG15 ligase TRIM25
 LOC100489544	GeneID:100489544	XB-GENE-29079779	olfactory receptor 52D1
 LOC100489553	GeneID:100489553	XB-GENE-29079783	uncharacterized LOC100489553
 LOC100489571	GeneID:100489571	XB-GENE-29079787	matrix metalloproteinase-18
@@ -5785,9 +5785,9 @@ LOC116412598	GeneID:116412598	XB-GENE-29098911	tetra-peptide repeat homeobox pro
 LOC116412604	GeneID:116412604	XB-GENE-29098915	protein unc-13 homolog B-like
 LOC116412608	GeneID:116412608	XB-GENE-29098919	probable E3 ubiquitin-protein ligase TRIM8
 LOC116412610	GeneID:116412610	XB-GENE-29098923	B-cell differentiation antigen CD72-like
-LOC116412612	GeneID:116412612	NA	uncharacterized LOC116412612
-LOC116412613	GeneID:116412613	NA	extensin-like
-LOC116412614	GeneID:116412614	NA	IgGFc-binding protein-like
+LOC116412612	GeneID:116412612	XB-GENE-29100115	uncharacterized LOC116412612
+LOC116412613	GeneID:116412613	XB-GENE-29100107	extensin-like
+LOC116412614	GeneID:116412614	XB-GENE-2910011	IgGFc-binding protein-like
 LOC394448	GeneID:394448	XB-GENE-29098927	cyclin B5
 LOC394967	GeneID:394967	XB-GENE-29098931	pancreatic lipase
 LOC407755	GeneID:407755	XB-GENE-29098935	parapinopsin
@@ -13511,7 +13511,7 @@ map1b	GeneID:779460	XB-GENE-6044422	microtubule associated protein 1B
 map1lc3a	GeneID:493344	XB-GENE-941851	microtubule associated protein 1 light chain 3 alpha
 map1lc3b	GeneID:394972	XB-GENE-953620	microtubule associated protein 1 light chain 3 beta
 map1lc3c	GeneID:733779	XB-GENE-1003533	microtubule associated protein 1 light chain 3 gamma
-map1s	GeneID:100494497	NA	microtubule associated protein 1S
+map1s	GeneID:100494497	XB-GENE-29100111	microtubule associated protein 1S
 map2	GeneID:780043	XB-GENE-5945202	microtubule associated protein 2
 map2k1	GeneID:493420	XB-GENE-478822	mitogen-activated protein kinase kinase 1
 map2k4	GeneID:100135013	XB-GENE-482151	mitogen-activated protein kinase kinase 4
@@ -14209,7 +14209,7 @@ mt-atp6	GeneID:3283497	NA	ATP synthase F0 subunit 6
 mt-atp8	GeneID:3283496	XB-GENE-22250297	mitochondrially encoded ATP synthase 8
 mt-co2	GeneID:3283495	XB-GENE-22250304	mitochondrially encoded cytochrome c oxidase II
 mt-co3	GeneID:3283498	XB-GENE-6485458	mitochondrially encoded cytochrome c oxidase III
-mt-cox1	GeneID:3283494	NA	cytochrome c oxidase subunit I
+mt-cox1	GeneID:3283494	XB-GENE-5868906	cytochrome c oxidase subunit I
 mt-cyb	GeneID:3283504	XB-GENE-6454954	mitochondrially encoded cytochrome b
 mt-nd1	GeneID:3283492	XB-GENE-6466716	mitochondrially encoded NADH dehydrogenase 1
 mt-nd2	GeneID:3283493	XB-GENE-6454984	mitochondrially encoded NADH dehydrogenase subunit 2
@@ -19458,7 +19458,7 @@ tdg	GeneID:448432	XB-GENE-1006128	thymine DNA glycosylase
 tdgf1	GeneID:100038139	XB-GENE-495111	teratocarcinoma-derived growth factor 1, member 1
 tdgf1.2	GeneID:100486054	XB-GENE-876239	teratocarcinoma-derived growth factor 1, member 2
 tdgf1.3	GeneID:779849	XB-GENE-482448	teratocarcinoma-derived growth factor 1, member 3
-tdh	GeneID:101730350	NA	L-threonine 3-dehydrogenase, mitochondrial
+tdh	GeneID:101730350	XB-GENE-976744	L-threonine 3-dehydrogenase, mitochondrial
 tdo2	GeneID:548450	XB-GENE-976712	tryptophan 2,3-dioxygenase
 tdp1	GeneID:734106	XB-GENE-950568	tyrosyl-DNA phosphodiesterase 1
 tdp2	GeneID:549698	XB-GENE-967013	tyrosyl-DNA phosphodiesterase 2
