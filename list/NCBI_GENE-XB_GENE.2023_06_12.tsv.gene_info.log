@@ -1,0 +1,14 @@
+---	LOC100489535	GeneID:100489535	NA	E3 ubiquitin/ISG15 ligase TRIM25
++++	LOC100489535	GeneID:100489535	XB-GENE-29100103	E3 ubiquitin/ISG15 ligase TRIM25
+---	LOC116412612	GeneID:116412612	NA	uncharacterized LOC116412612
++++	LOC116412612	GeneID:116412612	XB-GENE-29100115	uncharacterized LOC116412612
+---	LOC116412613	GeneID:116412613	NA	extensin-like
++++	LOC116412613	GeneID:116412613	XB-GENE-29100107	extensin-like
+---	LOC116412614	GeneID:116412614	NA	IgGFc-binding protein-like
++++	LOC116412614	GeneID:116412614	XB-GENE-2910011	IgGFc-binding protein-like
+---	map1s	GeneID:100494497	NA	microtubule associated protein 1S
++++	map1s	GeneID:100494497	XB-GENE-29100111	microtubule associated protein 1S
+---	mt-cox1	GeneID:3283494	NA	cytochrome c oxidase subunit I
++++	mt-cox1	GeneID:3283494	XB-GENE-5868906	cytochrome c oxidase subunit I
+---	tdh	GeneID:101730350	NA	L-threonine 3-dehydrogenase, mitochondrial
++++	tdh	GeneID:101730350	XB-GENE-976744	L-threonine 3-dehydrogenase, mitochondrial
