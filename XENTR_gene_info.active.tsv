@@ -127,7 +127,7 @@ LOC100145250	GeneID:100145250	XB-GENE-5762452	hypothetical protein LOC100145250
 LOC100145255	GeneID:100145255	XB-GENE-5799769	uncharacterized XB5799768
 LOC100145285	GeneID:100145285	XB-GENE-5935728	uncharacterized XB5935727
 LOC100145323	GeneID:100145323	XB-GENE-5769267	uncharacterized XB5769266
-LOC100145328	GeneID:100145328	NA	NameIsNotAvailable
+LOC100145328	GeneID:100145328	XB-GENE-29072477	NameIsNotAvailable
 LOC100145331	GeneID:100145331	XB-GENE-984298	provisional ortholog of cytochrome P450 family 27 subfamily A member 1
 LOC100145338	GeneID:100145338	XB-GENE-29077491	TRAF3 interacting protein 3
 LOC100145348	GeneID:100145348	XB-GENE-5852575	provisional ortholog of C-reactive protein
@@ -183,7 +183,7 @@ LOC100216241	GeneID:100216241	XB-GENE-29077535	uncharacterized LOC100216241
 LOC100216308	GeneID:100216308	XB-GENE-29077539	interleukin 22
 LOC100328980	GeneID:100328980	XB-GENE-29077543	NIMA related kinase 2
 LOC100329164	GeneID:100329164	XB-GENE-29077547	interferon lambda3
-LOC100337650	GeneID:100337650	NA	zinc finger protein
+LOC100337650	GeneID:100337650	XB-GENE-5907612	zinc finger protein
 LOC100337651	GeneID:100337651	XB-GENE-29077551	zinc finger protein
 LOC100380178	GeneID:100380178	XB-GENE-29072328	beta-1,3 galactosyltransferase 2 like gene 12
 LOC100484994	GeneID:100484994	XB-GENE-29077555	uncharacterized LOC100484994
@@ -303,7 +303,7 @@ LOC100485686	GeneID:100485686	XB-GENE-29077943	protein kinase C delta type
 LOC100485695	GeneID:100485695	XB-GENE-29077947	olfactory receptor 5V1-like
 LOC100485697	GeneID:100485697	XB-GENE-29077951	homeobox protein Nkx-2.1
 LOC100485704	GeneID:100485704	XB-GENE-29077955	zinc finger protein 585A-like
-LOC100485711	GeneID:100485711	NA	NameIsNotAvailable
+LOC100485711	GeneID:100485711	XB-GENE-479064	NameIsNotAvailable
 LOC100485712	GeneID:100485712	XB-GENE-29077959	protein kinase C theta type
 LOC100485719	GeneID:100485719	XB-GENE-29077963	uncharacterized LOC100485719
 LOC100485723	GeneID:100485723	XB-GENE-29077967	5-hydroxytryptamine receptor 1B
@@ -643,7 +643,7 @@ LOC100488333	GeneID:100488333	XB-GENE-5872577	acyl-coenzyme A amino acid N-acylt
 LOC100488351	GeneID:100488351	XB-GENE-29079151	olfactory receptor 5V1
 LOC100488353	GeneID:100488353	XB-GENE-29079155	sodium-coupled monocarboxylate transporter 1
 LOC100488359	GeneID:100488359	XB-GENE-29079159	phospholipase A2 inhibitor subunit gamma B
-LOC100488368	GeneID:100488368	NA	protein NDNF
+LOC100488368	GeneID:100488368	XB-GENE-22066209	protein NDNF
 LOC100488374	GeneID:100488374	XB-GENE-29079163	uncharacterized LOC100488374
 LOC100488377	GeneID:100488377	XB-GENE-29079167	homeobox protein unc-4 homolog
 LOC100488380	GeneID:100488380	XB-GENE-29079171	uncharacterized LOC100488380
@@ -1679,7 +1679,7 @@ LOC100495827	GeneID:100495827	XB-GENE-29082831	alpha-2-macroglobulin
 LOC100495831	GeneID:100495831	XB-GENE-29082835	oocyte zinc finger protein XlCOF7.1
 LOC100495837	GeneID:100495837	XB-GENE-22064335	cornifelin, gene 4
 LOC100495848	GeneID:100495848	XB-GENE-29082839	uncharacterized LOC100495848
-LOC100495868	GeneID:100495868	NA	major histocompatibility complex class I-related gene protein
+LOC100495868	GeneID:100495868	XB-GENE-29072522	major histocompatibility complex class I-related gene protein
 LOC100495870	GeneID:100495870	XB-GENE-29082843	histone H1B
 LOC100495876	GeneID:100495876	XB-GENE-29082847	uncharacterized LOC100495876
 LOC100495877	GeneID:100495877	XB-GENE-29082851	solute carrier family 7 member 13
@@ -1771,7 +1771,7 @@ LOC100496389	GeneID:100496389	XB-GENE-29083155	calcium/calmodulin-dependent prot
 LOC100496393	GeneID:100496393	XB-GENE-29083159	uncharacterized LOC100496393
 LOC100496394	GeneID:100496394	XB-GENE-29083163	L-amino-acid oxidase
 LOC100496398	GeneID:100496398	XB-GENE-29083167	gamma-aminobutyric acid type A receptor subunit theta
-LOC100496402	GeneID:100496402	NA	E3 ubiquitin-protein ligase RNF213
+LOC100496402	GeneID:100496402	XB-GENE-5966788	E3 ubiquitin-protein ligase RNF213
 LOC100496405	GeneID:100496405	XB-GENE-29083171	uncharacterized LOC100496405
 LOC100496423	GeneID:100496423	XB-GENE-5932842	provisional ortholog of caveolin 2
 LOC100496429	GeneID:100496429	XB-GENE-29083175	histone H3.v1-like
@@ -2039,7 +2039,6 @@ LOC100498172	GeneID:100498172	XB-GENE-29084063	E3 ubiquitin-protein ligase TRIM7
 LOC100498173	GeneID:100498173	XB-GENE-29084067	uncharacterized LOC100498173
 LOC100498180	GeneID:100498180	XB-GENE-29084071	olfactory receptor 1020-like
 LOC100498184	GeneID:100498184	XB-GENE-29084075	tctex1 domain-containing protein 1
-LOC100498194	GeneID:100498194	XB-GENE-29084079	nuclear pore complex protein Nup160
 LOC100498221	GeneID:100498221	XB-GENE-29084083	17-beta-hydroxysteroid dehydrogenase type 6
 LOC100498222	GeneID:100498222	XB-GENE-29084087	transmembrane protein 248
 LOC100498223	GeneID:100498223	XB-GENE-29084091	mucin-2
@@ -2115,7 +2114,7 @@ LOC100498594	GeneID:100498594	XB-GENE-29084347	ornithine decarboxylase
 LOC100498609	GeneID:100498609	XB-GENE-29084351	chymotrypsin-like elastase family member 2A
 LOC100498610	GeneID:100498610	XB-GENE-29084355	uncharacterized methyltransferase-like C25B8.10
 LOC100498620	GeneID:100498620	XB-GENE-29084359	probable RNA-binding protein 46
-LOC100498621	GeneID:100498621	NA	NameIsNotAvailable
+LOC100498621	GeneID:100498621	XB-GENE-29072485	NameIsNotAvailable
 LOC100498622	GeneID:100498622	XB-GENE-29084363	sex hormone-binding globulin
 LOC100498625	GeneID:100498625	XB-GENE-29084367	acyl-coenzyme A thioesterase 5
 LOC100498635	GeneID:100498635	XB-GENE-29084371	uncharacterized LOC100498635
@@ -2323,7 +2322,7 @@ LOC101731199	GeneID:101731199	XB-GENE-29085167	zinc finger MYM-type protein 1
 LOC101731207	GeneID:101731207	XB-GENE-29085171	protein kinase C-like
 LOC101731211	GeneID:101731211	XB-GENE-29085175	E3 ubiquitin/ISG15 ligase TRIM25
 LOC101731214	GeneID:101731214	XB-GENE-29085179	angiomotin-like protein 1
-LOC101731218	GeneID:101731218	NA	uncharacterized LOC101731218
+LOC101731218	GeneID:101731218	XB-GENE-22249066	uncharacterized LOC101731218
 LOC101731222	GeneID:101731222	XB-GENE-29085183	uncharacterized LOC101731222
 LOC101731224	GeneID:101731224	XB-GENE-29085187	olfactory receptor 1G1
 LOC101731226	GeneID:101731226	XB-GENE-29085191	hepatic lectin
@@ -2444,7 +2443,7 @@ LOC101731840	GeneID:101731840	XB-GENE-29085639	serine/threonine-protein kinase N
 LOC101731845	GeneID:101731845	XB-GENE-29085643	elafin
 LOC101731846	GeneID:101731846	XB-GENE-29085647	extracellular calcium-sensing receptor
 LOC101731848	GeneID:101731848	XB-GENE-29085651	gamma-crystallin-4
-LOC101731854	GeneID:101731854	NA	endonuclease domain-containing 1 protein
+LOC101731854	GeneID:101731854	XB-GENE-17329847	endonuclease domain-containing 1 protein
 LOC101731855	GeneID:101731855	XB-GENE-29085655	cell surface glycoprotein CD200 receptor 1-A
 LOC101731865	GeneID:101731865	XB-GENE-29085659	uncharacterized LOC101731865
 LOC101731873	GeneID:101731873	XB-GENE-29085663	uncharacterized LOC101731873
@@ -2838,7 +2837,6 @@ LOC101733758	GeneID:101733758	XB-GENE-29087207	serine/threonine-protein kinase N
 LOC101733761	GeneID:101733761	XB-GENE-29087211	zinc finger protein 182
 LOC101733769	GeneID:101733769	XB-GENE-29087215	uncharacterized LOC101733769
 LOC101733770	GeneID:101733770	XB-GENE-29087219	serine/threonine-protein kinase N2-like
-LOC101733774	GeneID:101733774	XB-GENE-29087223	lysine-specific demethylase 5A
 LOC101733778	GeneID:101733778	XB-GENE-29087227	traf2 and NCK-interacting protein kinase
 LOC101733785	GeneID:101733785	XB-GENE-29087231	coiled-coil domain-containing protein 17
 LOC101733799	GeneID:101733799	XB-GENE-29087235	lamina-associated polypeptide 2
@@ -2905,7 +2903,7 @@ LOC101734033	GeneID:101734033	XB-GENE-29087471	vomeronasal type-2 receptor 26
 LOC101734035	GeneID:101734035	XB-GENE-29087475	E3 ubiquitin/ISG15 ligase TRIM25
 LOC101734042	GeneID:101734042	XB-GENE-29087479	E3 ubiquitin-protein ligase TRIM17
 LOC101734050	GeneID:101734050	XB-GENE-29087483	protein kinase C delta type-like
-LOC101734051	GeneID:101734051	NA	NameIsNotAvailable
+LOC101734051	GeneID:101734051	XB-GENE-1011234	NameIsNotAvailable
 LOC101734054	GeneID:101734054	XB-GENE-29087487	E3 ubiquitin-protein ligase DCST1
 LOC101734060	GeneID:101734060	XB-GENE-29087491	pleckstrin homology domain-containing family S member 1
 LOC101734061	GeneID:101734061	XB-GENE-29087495	olfactory receptor 51I2
@@ -2970,7 +2968,6 @@ LOC101734364	GeneID:101734364	XB-GENE-29087727	uncharacterized LOC101734364
 LOC101734370	GeneID:101734370	XB-GENE-29087731	gastrula zinc finger protein XlCGF7.1-like
 LOC101734375	GeneID:101734375	XB-GENE-29087735	transient receptor potential cation channel subfamily V member 6
 LOC101734379	GeneID:101734379	XB-GENE-29087739	olfactory receptor 1030-like
-LOC101734382	GeneID:101734382	XB-GENE-29087743	serine/threonine-protein kinase N1-like
 LOC101734384	GeneID:101734384	XB-GENE-29087747	uncharacterized LOC101734384
 LOC101734387	GeneID:101734387	XB-GENE-29087751	major histocompatibility complex class I-related gene protein-like
 LOC101734388	GeneID:101734388	XB-GENE-29087755	vomeronasal type-2 receptor 26
@@ -3148,7 +3145,7 @@ LOC101735287	GeneID:101735287	XB-GENE-29088435	hepatic lectin
 LOC101735291	GeneID:101735291	XB-GENE-29088439	olfactory receptor 1019-like
 LOC101735292	GeneID:101735292	XB-GENE-29088443	testis-expressed protein 52
 LOC101735296	GeneID:101735296	XB-GENE-29088447	multiple coagulation factor deficiency protein 2 homolog
-LOC101735301	GeneID:101735301	NA	NameIsNotAvailable
+LOC101735301	GeneID:101735301	XB-GENE-29072481	NameIsNotAvailable
 LOC105945135	GeneID:105945135	XB-GENE-29088451	molybdopterin synthase catalytic subunit
 LOC105945136	GeneID:105945136	XB-GENE-29088455	hemagglutinin/amebocyte aggregation factor
 LOC105945137	GeneID:105945137	XB-GENE-29088459	uncharacterized LOC105945137
@@ -3215,7 +3212,7 @@ LOC105945440	GeneID:105945440	XB-GENE-29088699	gastrula zinc finger protein XlCG
 LOC105945441	GeneID:105945441	XB-GENE-29088703	oocyte zinc finger protein XlCOF7.1
 LOC105945443	GeneID:105945443	XB-GENE-29088707	uncharacterized LOC105945443
 LOC105945452	GeneID:105945452	XB-GENE-29088711	uncharacterized LOC105945452
-LOC105945457	GeneID:105945457	NA	N-acylethanolamine-hydrolyzing acid amidase-like
+LOC105945457	GeneID:105945457	XB-GENE-1006649	N-acylethanolamine-hydrolyzing acid amidase-like
 LOC105945465	GeneID:105945465	XB-GENE-29088715	probable DNA polymerase
 LOC105945469	GeneID:105945469	XB-GENE-29088719	mucin-19-like
 LOC105945479	GeneID:105945479	XB-GENE-29088723	uncharacterized LOC105945479
@@ -3899,7 +3896,7 @@ LOC116406449	GeneID:116406449	XB-GENE-29091411	ATP-binding cassette sub-family B
 LOC116406450	GeneID:116406450	XB-GENE-29091415	trypsin-like
 LOC116406451	GeneID:116406451	XB-GENE-29091419	protein kinase C theta type-like
 LOC116406452	GeneID:116406452	XB-GENE-29091423	uncharacterized LOC116406452
-LOC116406454	GeneID:116406454	NA	purine rich element binding protein G
+LOC116406454	GeneID:116406454	XB-GENE-992869	purine rich element binding protein G
 LOC116406455	GeneID:116406455	XB-GENE-29091427	gamma-crystallin-1-like
 LOC116406456	GeneID:116406456	XB-GENE-29091431	homeobox D10
 LOC116406459	GeneID:116406459	XB-GENE-29091435	zinc finger protein OZF-like
@@ -4403,7 +4400,7 @@ LOC116407832	GeneID:116407832	XB-GENE-29093419	protein mono-ADP-ribosyltransfera
 LOC116407833	GeneID:116407833	XB-GENE-29093423	uncharacterized LOC116407833
 LOC116407834	GeneID:116407834	XB-GENE-29093427	transmembrane protein 198
 LOC116407835	GeneID:116407835	XB-GENE-29093431	proline-rich protein 2-like
-LOC116407839	GeneID:116407839	NA	collagen alpha-1(XIII) chain-like
+LOC116407839	GeneID:116407839	XB-GENE-23659518	collagen alpha-1(XIII) chain-like
 LOC116407840	GeneID:116407840	XB-GENE-29093435	G-protein coupled receptor 39-like
 LOC116407841	GeneID:116407841	XB-GENE-29093439	serine/threonine-protein kinase N1-like
 LOC116407842	GeneID:116407842	XB-GENE-29093443	serine/threonine-protein kinase N1-like
@@ -4453,7 +4450,7 @@ LOC116407971	GeneID:116407971	XB-GENE-29093615	uridine-cytidine kinase 1 like 1
 LOC116407974	GeneID:116407974	XB-GENE-29093619	uncharacterized LOC116407974
 LOC116407975	GeneID:116407975	XB-GENE-29093623	uncharacterized LOC116407975
 LOC116407976	GeneID:116407976	XB-GENE-29093627	extended synaptotagmin-1-like
-LOC116407977	GeneID:116407977	NA	NameIsNotAvailable
+LOC116407977	GeneID:116407977	XB-GENE-29072462	NameIsNotAvailable
 LOC116407978	GeneID:116407978	XB-GENE-29093631	uncharacterized LOC116407978
 LOC116407982	GeneID:116407982	XB-GENE-29093635	tyrosine-protein kinase Srms-like
 LOC116407984	GeneID:116407984	XB-GENE-29093639	actin-binding Rho-activating protein-like
@@ -4491,7 +4488,7 @@ LOC116408062	GeneID:116408062	XB-GENE-29093763	WAP four-disulfide core domain pr
 LOC116408063	GeneID:116408063	XB-GENE-29093767	serine/threonine-protein kinase akt-2-like
 LOC116408069	GeneID:116408069	XB-GENE-29093771	sprT-like domain-containing protein Spartan
 LOC116408072	GeneID:116408072	XB-GENE-29093775	C3a anaphylatoxin chemotactic receptor-like
-LOC116408073	GeneID:116408073	NA	lipopolysaccharide-binding protein-like
+LOC116408073	GeneID:116408073	XB-GENE-25874652	lipopolysaccharide-binding protein-like
 LOC116408078	GeneID:116408078	XB-GENE-29093779	sprT-like domain-containing protein Spartan
 LOC116408190	GeneID:116408190	XB-GENE-29093783	complement C1q subcomponent subunit B-like
 LOC116408196	GeneID:116408196	XB-GENE-29093787	acanthoscurrin-2-like
@@ -5097,7 +5094,7 @@ LOC116410447	GeneID:116410447	XB-GENE-29096171	calpastatin-like
 LOC116410449	GeneID:116410449	XB-GENE-29096175	uncharacterized LOC116410449
 LOC116410450	GeneID:116410450	XB-GENE-29096179	cytochrome P450 2D20-like
 LOC116410452	GeneID:116410452	XB-GENE-29096183	uncharacterized LOC116410452
-LOC116410455	GeneID:116410455	NA	uncharacterized LOC116410455
+LOC116410455	GeneID:116410455	XB-GENE-22068109	uncharacterized LOC116410455
 LOC116410460	GeneID:116410460	XB-GENE-29096187	uncharacterized LOC116410460
 LOC116410462	GeneID:116410462	XB-GENE-29096191	uncharacterized LOC116410462
 LOC116410463	GeneID:116410463	XB-GENE-29096195	P2X purinoceptor 7-like
@@ -5462,7 +5459,7 @@ LOC116411734	GeneID:116411734	XB-GENE-29097627	uncharacterized LOC116411734
 LOC116411735	GeneID:116411735	XB-GENE-29097631	uncharacterized LOC116411735
 LOC116411736	GeneID:116411736	XB-GENE-29097635	protein FAM237B-like
 LOC116411737	GeneID:116411737	XB-GENE-29097639	protein kinase C delta type-like
-LOC116411739	GeneID:116411739	NA	transmembrane channel like 2
+LOC116411739	GeneID:116411739	XB-GENE-877070	transmembrane channel like 2
 LOC116411740	GeneID:116411740	XB-GENE-29097643	M1-specific T cell receptor beta chain
 LOC116411741	GeneID:116411741	XB-GENE-29097647	mas-related G-protein coupled receptor member H-like
 LOC116411742	GeneID:116411742	XB-GENE-29097651	proto-oncogene Mas-like
@@ -5764,7 +5761,7 @@ LOC116412444	GeneID:116412444	XB-GENE-29098831	cysteine-rich venom protein 6-lik
 LOC116412445	GeneID:116412445	XB-GENE-29098835	uncharacterized LOC116412445
 LOC116412446	GeneID:116412446	XB-GENE-29098839	cAMP-dependent protein kinase catalytic subunit-like
 LOC116412447	GeneID:116412447	XB-GENE-29098843	uncharacterized LOC116412447
-LOC116412453	GeneID:116412453	NA	NameIsNotAvailable
+LOC116412453	GeneID:116412453	XB-GENE-29072489	NameIsNotAvailable
 LOC116412454	GeneID:116412454	XB-GENE-29098847	serine/threonine-protein kinase N1-like
 LOC116412457	GeneID:116412457	XB-GENE-29098851	serine/threonine-protein kinase N1-like
 LOC116412458	GeneID:116412458	XB-GENE-29098855	uncharacterized LOC116412458
@@ -5910,7 +5907,7 @@ MGC145518	GeneID:779923	XB-GENE-29099155	uncharacterized protein MGC145518
 MGC145685	GeneID:780256	XB-GENE-5732956	uncharacterized protein mgc145685
 MGC146443	GeneID:779807	XB-GENE-5770400	uncharacterized protein mgc146443
 MGC146850	GeneID:780081	XB-GENE-5871338	uncharacterized protein mgc146850
-MGC146893	GeneID:779697	NA	uncharacterized protein MGC146893
+MGC146893	GeneID:779697	XB-GENE-5846793	uncharacterized protein MGC146893
 MGC147117	GeneID:779842	XB-GENE-5918131	uncharacterized protein mgc147117
 MGC147172	GeneID:780305	XB-GENE-5722444	uncharacterized protein mgc147172
 MGC147188	GeneID:779991	XB-GENE-29099159	uncharacterized protein MGC147188
@@ -6575,7 +6572,7 @@ ankrd17	GeneID:100127573	XB-GENE-994421	ankyrin repeat domain 17
 ankrd2	GeneID:100037897	XB-GENE-1016694	ankyrin repeat domain 2 (stretch responsive muscle)
 ankrd22	GeneID:100127758	XB-GENE-1003075	ankyrin repeat domain 22
 ankrd24	GeneID:100487092	XB-GENE-984388	ankyrin repeat domain 24
-ankrd26	GeneID:100379673	XB-GENE-6044145	ankyrin repeat domain 26
+ankrd26	GeneID:100379673	XB-GENE-940846	ankyrin repeat domain 26
 ankrd27	GeneID:100493046	XB-GENE-6043795	ankyrin repeat domain 27
 ankrd28	GeneID:734050	XB-GENE-5857499	ankyrin repeat domain 28
 ankrd29	GeneID:100496526	XB-GENE-984623	ankyrin repeat domain 29
@@ -6960,7 +6957,7 @@ asic1	GeneID:100489966	XB-GENE-977699	acid sensing ion channel subunit 1
 asic2	GeneID:100492214	XB-GENE-6033380	acid sensing ion channel subunit 2
 asic4	GeneID:100486325	XB-GENE-940165	acid sensing ion channel subunit family member 4
 asic5	GeneID:100498195	XB-GENE-983430	acid sensing ion channel subunit family member 5
-asip	GeneID:116408065	NA	agouti signaling protein
+asip	GeneID:116408065	XB-GENE-490064	agouti signaling protein
 asl	GeneID:100127798	XB-GENE-987476	argininosuccinate lyase
 asmt	GeneID:496888	XB-GENE-942483	acetylserotonin O-methyltransferase
 asmtl	GeneID:548765	XB-GENE-1000561	acetylserotonin O-methyltransferase like
@@ -7183,7 +7180,7 @@ azin2	GeneID:548747	XB-GENE-6454420	antizyme inhibitor 2
 b2m	GeneID:100422806	XB-GENE-922470	beta-2-microglobulin
 b3galnt2	GeneID:496641	XB-GENE-1012156	beta-1,3-N-acetylgalactosaminyltransferase 2
 b3galt1	GeneID:100488045	XB-GENE-988816	Beta-1,3-galactosyltransferase 1
-b3galt2	GeneID:100487440	XB-GENE-22172614	NameIsNotAvailable
+b3galt2	GeneID:100487440	XB-GENE-5795334	NameIsNotAvailable
 b3galt4	GeneID:100489366	XB-GENE-919694	Beta-1,3-galactosyltransferase 4
 b3galt5.1	GeneID:100494507	XB-GENE-992040	beta-1,3-galactosyltransferase 5 gene 1
 b3galt5.2	GeneID:100494668	XB-GENE-992036	beta-1,3-galactosyltransferase 5 gene 2
@@ -7543,7 +7540,7 @@ c10h20orf96	GeneID:100486979	XB-GENE-29076906	chromosome 10 C20orf96 homolog
 c1d	GeneID:549178	XB-GENE-1014449	C1D nuclear receptor corepressor
 c1galt1	GeneID:100487794	XB-GENE-992000	core 1 synthase, glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase 1
 c1galt1c1	GeneID:448225	XB-GENE-941230	C1GALT1 specific chaperone 1
-c1h12orf43	GeneID:105948285	NA	NameIsNotAvailable
+c1h12orf43	GeneID:105948285	XB-GENE-5925282	NameIsNotAvailable
 c1h14orf119	GeneID:549683	XB-GENE-996611	chromosome 1 C14orf119 homolog
 c1h14orf93	GeneID:100380021	XB-GENE-962261	chromosome 1 C14orf93 homolog
 c1h18orf25	GeneID:548782	XB-GENE-988446	chromosome 1 C18orf25 homolog
@@ -7587,7 +7584,7 @@ c2cd5	GeneID:733979	XB-GENE-5915013	C2 calcium-dependent domain containing 5
 c2h11orf54	GeneID:549100	XB-GENE-1010634	chromosome 2 C11orf54 homolog
 c2h11orf65	GeneID:100490935	XB-GENE-952411	chromosome 2 C11orf65 homolog
 c2h11orf87	GeneID:780237	XB-GENE-5746920	chromosome 2 C11orf87 homolog
-c2h13orf42	GeneID:116408708	NA	NameIsNotAvailable
+c2h13orf42	GeneID:116408708	XB-GENE-6032783	NameIsNotAvailable
 c2h17orf50	GeneID:108645138	XB-GENE-29076911	chromosome 2 C17orf50 homolog
 c2h17orf97	GeneID:100498469	XB-GENE-29076915	ligand of ATE1
 c2h1orf109	GeneID:733509	XB-GENE-5846660	chromosome 2 C1orf109 homolog
@@ -7633,13 +7630,13 @@ c4h16orf87	GeneID:100145132	XB-GENE-998359	chromosome 4 C16orf87 homolog
 c4h19orf12	GeneID:448278	XB-GENE-1009748	chromosome 4 C19orf12 homolog
 c4h1orf112	GeneID:100145634	XB-GENE-5952633	chromosome 4  C1orf112 homolog
 c4h1orf141	GeneID:100498273	XB-GENE-29076947	chromosome 4 C1orf141 homolog
-c4h1orf146	GeneID:101733338	NA	NameIsNotAvailable
+c4h1orf146	GeneID:101733338	XB-GENE-6043629	NameIsNotAvailable
 c4h1orf21	GeneID:780109	XB-GENE-5830151	chromosome 4  C1orf21 homolog
 c4h1orf52	GeneID:548713	XB-GENE-975905	chromosome 4 C1orf52 homolog
 c4h1orf53	GeneID:100127772	XB-GENE-29076951	chromosome 4 C1orf53 homolog
 c4h1orf87	GeneID:116410500	XB-GENE-980223	NameIsNotAvailable
 c4h22orf23	GeneID:100485066	XB-GENE-971971	chromosome 4 C22orf23 homolog
-c4h3orf14	GeneID:101732318	NA	centrosomal protein 15
+c4h3orf14	GeneID:101732318	XB-GENE-1006443	centrosomal protein 15
 c4h3orf18	GeneID:101732317	XB-GENE-29076955	chromosome 4 C3orf18 homolog
 c4h3orf49	GeneID:100124839	XB-GENE-6258107	chromosome 4 C3orf49 homolog
 c4h3orf84	GeneID:100485425	XB-GENE-29076959	chromosome 4 C3orf84 homolog
@@ -7651,7 +7648,7 @@ c5h1orf198	GeneID:100489350	XB-GENE-985154	chromosome 5 C1orf198 homolog
 c5h2orf50	GeneID:100379859	XB-GENE-5887994	chromosome 5 C2orf50 homolog
 c5h2orf72	GeneID:100498583	XB-GENE-22068094	chromosome 5 C2orf72 homolog
 c5h2orf73	GeneID:100135362	XB-GENE-5797228	chromosome 5 C2orf73 homolog
-c5h3orf33	GeneID:100496931	NA	NameIsNotAvailable
+c5h3orf33	GeneID:100496931	XB-GENE-983062	NameIsNotAvailable
 c5h3orf80	GeneID:100496145	XB-GENE-950676	chromosome 5 C3orf80 homolog
 c5h6orf118	GeneID:779868	XB-GENE-974228	chromosome 5 C6orf118 homolog
 c5h6orf120	GeneID:448344	XB-GENE-963425	chromosome 5 C6orf120 homolog
@@ -7673,7 +7670,7 @@ c7	GeneID:100485186	XB-GENE-5894898	complement C7
 c7h10orf143	GeneID:100495010	XB-GENE-29076971	chromosome 7 C10orf143 homolog
 c7h10orf53	GeneID:100485377	XB-GENE-6500288	chromosome 7 C10orf53 homolog
 c7h10orf71	GeneID:100494453	XB-GENE-22068038	chromosome 7 C10orf71 homolog
-c7h10orf88	GeneID:100485494	NA	NameIsNotAvailable
+c7h10orf88	GeneID:100485494	XB-GENE-877272	NameIsNotAvailable
 c7h10orf90	GeneID:101731645	XB-GENE-22068046	chromosome 7 C10orf90 homolog
 c7h10orf95	GeneID:105948016	XB-GENE-29076975	chromosome 7 C10orf95 homolog
 c7h11orf1	GeneID:100494160	XB-GENE-940869	chromosome 7 C11orf1 homolog
@@ -7850,7 +7847,7 @@ capsl	GeneID:549278	XB-GENE-962396	calcyphosine like
 capza1	GeneID:550078	XB-GENE-489686	capping actin protein of muscle Z-line subunit alpha 1
 capza2	GeneID:550008	XB-GENE-489168	capping actin protein of muscle Z-line subunit alpha 2
 capzb	GeneID:100494073	XB-GENE-490544	capping actin protein of muscle Z-line subunit beta
-car1	GeneID:780246	NA	carbonic anhydrase I
+car1	GeneID:780246	XB-GENE-957159	carbonic anhydrase I
 card11	GeneID:105948360	XB-GENE-6076960	NameIsNotAvailable
 card14	GeneID:100486738	XB-GENE-989887	caspase recruitment domain family member 14
 card19	GeneID:100490452	XB-GENE-995874	caspase recruitment domain family member 19
@@ -7955,7 +7952,7 @@ ccdc134	GeneID:548843	XB-GENE-951215	coiled-coil domain containing 134
 ccdc136	GeneID:100216100	XB-GENE-5992991	coiled-coil domain containing 136
 ccdc137	GeneID:100485278	XB-GENE-22068170	coiled-coil domain containing 137
 ccdc138	GeneID:100145464	XB-GENE-5842289	coiled-coil domain containing 138
-ccdc14	GeneID:100491976	XB-GENE-6449725	coiled-coil domain containing 14
+ccdc14	GeneID:100491976	XB-GENE-5721682	coiled-coil domain containing 14
 ccdc141	GeneID:100485826	XB-GENE-6462926	coiled-coil domain containing 141
 ccdc142	GeneID:779921	XB-GENE-29077015	coiled-coil domain containing 142
 ccdc146	GeneID:100496606	XB-GENE-6050178	coiled-coil domain containing 146
@@ -8300,8 +8297,8 @@ cebpg	GeneID:549197	XB-GENE-919758	CCAAT enhancer binding protein gamma
 cebpz	GeneID:100151708	XB-GENE-853892	CCAAT enhancer binding protein zeta
 cebpzos	GeneID:105947415	XB-GENE-22068235	CEBPZ opposite strand
 cecr2	GeneID:100486642	XB-GENE-6461178	CECR2, histone acetyl-lysine reader
-cecr5	GeneID:496502	NA	cat eye syndrome chromosome region, candidate 5 homolog (human)
-cel.1	GeneID:100144991	XB-GENE-22172575	carboxyl ester lipase, gene 1
+cecr5	GeneID:496502	XB-GENE-854825	cat eye syndrome chromosome region, candidate 5 homolog (human)
+cel.1	GeneID:100144991	XB-GENE-1217488	carboxyl ester lipase, gene 1
 cela1.1	GeneID:100170431	XB-GENE-22064332	chymotrypsin like elastase 1, gene 1
 cela1.2	GeneID:496993	XB-GENE-5739190	chymotrypsin like elastase 1, gene 2
 cela1.4	GeneID:595061	XB-GENE-22064324	chymotrypsin like elastase 1, gene 4
@@ -8390,7 +8387,7 @@ ces3.1	GeneID:100144981	XB-GENE-6467140	carboxylesterase 3, gene 1
 ces3.4	GeneID:779633	XB-GENE-5765838	carboxylesterase 3, gene 4
 ces3.5	GeneID:100493652	XB-GENE-6467133	carboxylesterase 3, gene 5
 ces3.7	GeneID:100494149	XB-GENE-6467125	carboxylesterase 3, gene 7
-ces5a	GeneID:394897	NA	carboxylesterase 5A
+ces5a	GeneID:394897	XB-GENE-6467132	carboxylesterase 5A
 cetn2	GeneID:549903	XB-GENE-967617	centrin 2
 cetn3	GeneID:549141	XB-GENE-1001054	centrin 3
 cetn4	GeneID:100144661	XB-GENE-920656	centrin 4
@@ -8491,7 +8488,7 @@ chid1	GeneID:493467	XB-GENE-5752789	chitinase domain containing 1
 chit1	GeneID:448265	XB-GENE-5801457	chitinase 1 (chitotriosidase)
 chka	GeneID:496957	XB-GENE-5775623	choline kinase alpha
 chkb	GeneID:100145186	XB-GENE-5953721	choline kinase beta
-chl1	GeneID:101735183	NA	NameIsNotAvailable
+chl1	GeneID:101735183	XB-GENE-969934	NameIsNotAvailable
 chm	GeneID:100488898	XB-GENE-956389	choroideremia (Rab escort protein 1)
 chmp1a	GeneID:100216166	XB-GENE-5812950	charged multivesicular body protein 1A
 chmp1b	GeneID:448582	XB-GENE-5822036	charged multivesicular body protein 1B
@@ -8665,7 +8662,7 @@ clint1	GeneID:100491401	XB-GENE-1013621	clathrin interactor 1
 clip1	GeneID:100124823	XB-GENE-1012946	CAP-Gly domain containing linker protein 1
 clip2	GeneID:100487868	XB-GENE-1010626	CAP-Gly domain containing linker protein 2
 clip3	GeneID:100145183	XB-GENE-5806327	CAP-Gly domain containing linker protein 3
-clip4	GeneID:100495216	XB-GENE-922411	CAP-Gly domain containing linker protein family member 4
+clip4	GeneID:100495216	XB-GENE-922410	CAP-Gly domain containing linker protein family member 4
 clk1	GeneID:549675	XB-GENE-6041600	CDC like kinase 1
 clk2	GeneID:496828	XB-GENE-922501	CDC like kinase 2
 clk3	GeneID:496952	XB-GENE-5861130	CDC like kinase 3
@@ -8862,7 +8859,7 @@ commd3	GeneID:100494486	XB-GENE-942203	COMM domain containing 3
 commd4	GeneID:496531	XB-GENE-974195	COMM domain containing 4
 commd5	GeneID:100380154	XB-GENE-952087	COMM domain containing 5
 commd6	GeneID:549218	XB-GENE-963717	COMM domain containing 6
-commd7	GeneID:116412615	NA	NameIsNotAvailable
+commd7	GeneID:116412615	XB-GENE-6257432	NameIsNotAvailable
 commd8	GeneID:549158	XB-GENE-942437	COMM domain containing 8
 commd9	GeneID:496905	XB-GENE-973499	COMM domain containing 9
 comp	GeneID:100494714	XB-GENE-994160	cartilage oligomeric matrix protein
@@ -9143,7 +9140,7 @@ csnk1g3	GeneID:100038034	XB-GENE-479074	casein kinase 1 gamma 3
 csnk2a1	GeneID:100498392	XB-GENE-959752	casein kinase 2, alpha 1 polypeptide
 csnk2a2	GeneID:493442	XB-GENE-487069	casein kinase 2 alpha 2
 csnk2b	GeneID:448656	XB-GENE-487924	casein kinase 2 beta
-cspg4	GeneID:116409763	NA	chondroitin sulfate proteoglycan 4
+cspg4	GeneID:116409763	XB-GENE-5893459	chondroitin sulfate proteoglycan 4
 cspg4b	GeneID:100145673	XB-GENE-5893460	chondroitin sulfate proteoglycan 4b
 cspg5	GeneID:101731206	XB-GENE-22068312	chondroitin sulfate proteoglycan 5
 cspp1	GeneID:779552	XB-GENE-5770603	centrosome and spindle pole associated protein 1
@@ -10128,7 +10125,7 @@ eif5a	GeneID:448142	XB-GENE-998075	eukaryotic translation initiation factor 5A
 eif5b	GeneID:100492012	XB-GENE-6258156	eukaryotic translation initiation factor 5B
 eif6	GeneID:448711	XB-GENE-868337	eukaryotic translation initiation factor 6
 eipr1	GeneID:496745	XB-GENE-953865	EARP complex and GARP complex interacting protein 1
-ela3b	GeneID:496902	NA	elastase 3B, pancreatic
+ela3b	GeneID:496902	XB-GENE-5886492	elastase 3B, pancreatic
 elac1	GeneID:549782	XB-GENE-1015217	elaC ribonuclease Z 1
 elac2	GeneID:733896	XB-GENE-923106	elaC ribonuclease Z 2
 elapor1	GeneID:100488479	XB-GENE-6257880	endosome-lysosome associated apoptosis and autophagy regulator 1
@@ -10597,7 +10594,7 @@ fam98a	GeneID:394658	XB-GENE-961872	family with sequence similarity 98 member A
 fam98b	GeneID:100145158	XB-GENE-5928439	family with sequence similarity 98 member B
 fan1	GeneID:100485224	XB-GENE-1011796	FANCD2/FANCI-associated nuclease 1
 fanca	GeneID:100380079	XB-GENE-1000616	FA complementation group A
-fancb	GeneID:100497907	NA	FA complementation group B
+fancb	GeneID:100497907	XB-GENE-6453898	FA complementation group B
 fancc	GeneID:100493280	XB-GENE-986037	FA complementation group C
 fancd2	GeneID:100487938	XB-GENE-984801	FA complementation group D2
 fancd2os	GeneID:100036698	XB-GENE-965507	FANCD2 opposite strand
@@ -10649,7 +10646,7 @@ fbxl13	GeneID:100496930	XB-GENE-6042355	F-box and leucine-rich repeat protein 13
 fbxl14	GeneID:100487109	XB-GENE-968324	F-box and leucine-rich repeat protein 14
 fbxl15	GeneID:496536	XB-GENE-973058	F-box and leucine-rich repeat protein 15
 fbxl16	GeneID:100125019	XB-GENE-5821642	F-box and leucine-rich repeat protein 16
-fbxl17	GeneID:779844	XB-GENE-986824	F-box and leucine-rich repeat protein 17
+fbxl17	GeneID:779844	XB-GENE-5730141	F-box and leucine-rich repeat protein 17
 fbxl18	GeneID:100492578	XB-GENE-980052	F-box and leucine-rich repeat protein 18
 fbxl19	GeneID:100486811	XB-GENE-994853	F-box and leucine-rich repeat protein 19
 fbxl20	GeneID:100491064	XB-GENE-979487	F-box and leucine-rich repeat protein 20
@@ -11048,7 +11045,7 @@ gabra3	GeneID:100494398	XB-GENE-992774	gamma-aminobutyric acid (GABA) A receptor
 gabra5	GeneID:100494208	XB-GENE-980292	gamma-aminobutyric acid (GABA) A receptor, alpha 5
 gabra6	GeneID:100488862	XB-GENE-6049732	gamma-aminobutyric acid (GABA) A receptor, alpha 6
 gabrb1	GeneID:100489344	XB-GENE-6049110	gamma-aminobutyric acid (GABA) A receptor, beta 1
-gabrb2	GeneID:100125027	XB-GENE-22068478	gamma-aminobutyric acid type A receptor beta2 subunit
+gabrb2	GeneID:100125027	XB-GENE-5791411	gamma-aminobutyric acid type A receptor beta2 subunit
 gabrb3	GeneID:100124708	XB-GENE-6030743	gamma-aminobutyric acid (GABA) A receptor, beta 3
 gabrd	GeneID:100488161	XB-GENE-988598	gamma-aminobutyric acid (GABA) A receptor, delta
 gabrg2	GeneID:779514	XB-GENE-5949005	gamma-aminobutyric acid (GABA) A receptor, gamma 2
@@ -11148,12 +11145,12 @@ gatd3ala	GeneID:100145051	XB-GENE-5737927	glutamine amidotransferase like class 
 gatd3alb.1	GeneID:100491202	XB-GENE-22169777	glutamine amidotransferase like class 1 domain containing 3A-like gene b1
 gatd3alb.2	GeneID:108648368	XB-GENE-22169781	glutamine amidotransferase like class 1 domain containing 3A-like gene b2
 gatm	GeneID:394568	XB-GENE-974514	glycine amidinotransferase (L-arginine:glycine amidinotransferase)
-gba	GeneID:116406674	NA	NameIsNotAvailable
+gba	GeneID:116406674	XB-GENE-6457545	NameIsNotAvailable
 gba2	GeneID:100145361	XB-GENE-5799150	glucosidase, beta (bile acid) 2
 gbe1	GeneID:100494084	XB-GENE-980510	glucan (1,4-alpha-), branching enzyme 1
 gbf1	GeneID:100380093	XB-GENE-1012128	golgi brefeldin A resistant guanine nucleotide exchange factor 1
 gbp1	GeneID:549527	XB-GENE-6045650	guanylate binding protein 1, interferon-inducible
-gbp2	GeneID:779720	NA	guanylate binding protein 2, interferon-inducible
+gbp2	GeneID:779720	XB-GENE-5828806	guanylate binding protein 2, interferon-inducible
 gbp3	GeneID:100489592	XB-GENE-6077208	guanylate binding protein 3
 gbp4	GeneID:595008	XB-GENE-5775900	guanylate binding protein 4
 gbp5	GeneID:100145295	XB-GENE-5756296	guanylate binding protein 5
@@ -11695,7 +11692,7 @@ gtsf1	GeneID:100036720	XB-GENE-5878704	gametocyte specific factor 1
 gtsf2	GeneID:100145274	XB-GENE-5780436	gametocyte specific factor 2
 guca1a	GeneID:100124863	XB-GENE-22061924	guanylate cyclase activator 1A
 guca1al	GeneID:779962	XB-GENE-5751697	guanylate cyclase activator 1A like
-guca1b	GeneID:100489509	XB-GENE-22172599	guanylate cyclase activator 1B
+guca1b	GeneID:100489509	XB-GENE-5838913	guanylate cyclase activator 1B
 guca1bl	GeneID:100379842	XB-GENE-5838913	guanylate cyclase activator 1B like
 guca1c	GeneID:100497028	XB-GENE-6039675	guanylate cyclase activator 1C
 gucd1	GeneID:549213	XB-GENE-941300	guanylyl cyclase domain containing 1
@@ -12669,11 +12666,11 @@ kcng2	GeneID:100497537	XB-GENE-954003	potassium channel, voltage gated modifier 
 kcng3	GeneID:100485370	XB-GENE-981630	potassium channel, voltage gated modifier subfamily G, member 3
 kcng4	GeneID:100497160	XB-GENE-985941	potassium channel, voltage gated modifier subfamily G, member 4
 kcnh1	GeneID:100496157	XB-GENE-985559	potassium voltage-gated channel subfamily H member 1
-kcnh2	GeneID:100491983	XB-GENE-983104	potassium channel, voltage gated eag related subfamily H, member 2
+kcnh2	GeneID:100491983	XB-GENE-990943	potassium channel, voltage gated eag related subfamily H, member 2
 kcnh3	GeneID:100494380	XB-GENE-952637	potassium channel, voltage gated eag related subfamily H, member 3
 kcnh4	GeneID:100488431	XB-GENE-1014062	potassium channel, voltage gated eag related subfamily H, member 4
 kcnh5	GeneID:100151738	XB-GENE-1013572	potassium voltage-gated channel subfamily H member 5
-kcnh6	GeneID:100485121	XB-GENE-990943	potassium channel, voltage gated eag related subfamily H, member 6
+kcnh6	GeneID:100485121	XB-GENE-983104	potassium channel, voltage gated eag related subfamily H, member 6
 kcnh7	GeneID:100486080	XB-GENE-853944	potassium voltage-gated channel subfamily H member 7
 kcnh8	GeneID:100490406	XB-GENE-981673	potassium channel, voltage gated eag related subfamily H, member 8
 kcnip1	GeneID:100497014	XB-GENE-973728	Kv channel interacting protein 1
@@ -13382,7 +13379,7 @@ lss	GeneID:733925	XB-GENE-5786978	lanosterol synthase (2,3-oxidosqualene-lanoste
 lta	GeneID:100135001	XB-GENE-493358	lymphotoxin alpha
 lta4h	GeneID:448745	XB-GENE-955977	leukotriene A4 hydrolase
 ltb	GeneID:100135022	XB-GENE-494846	lymphotoxin beta
-ltb4dh	GeneID:493462	NA	ltb4dh protein
+ltb4dh	GeneID:493462	XB-GENE-5789487	ltb4dh protein
 ltb4r	GeneID:101731424	XB-GENE-22167942	leukotriene B4 receptor
 ltb4r2	GeneID:100489628	XB-GENE-984956	leukotriene B4 receptor 2
 ltbp1	GeneID:100488719	XB-GENE-488058	latent transforming growth factor beta binding protein 1
@@ -13707,7 +13704,7 @@ meak7	GeneID:100496378	XB-GENE-5927035	MTOR associated protein, eak-7 homolog
 mecom	GeneID:100496511	XB-GENE-980195	MDS1 and EVI1 complex locus
 mecp2	GeneID:100216110	XB-GENE-494740	methyl-CpG binding protein 2
 mecr	GeneID:549125	XB-GENE-1007523	mitochondrial trans-2-enoyl-CoA reductase
-med1	GeneID:100036710	NA	NameIsNotAvailable
+med1	GeneID:100036710	XB-GENE-489214	NameIsNotAvailable
 med10	GeneID:448288	XB-GENE-950393	mediator complex subunit 10
 med11	GeneID:395010	XB-GENE-974069	mediator complex subunit 11
 med12	GeneID:100495585	XB-GENE-985871	mediator complex subunit 12
@@ -13886,7 +13883,7 @@ mib1	GeneID:100170182	XB-GENE-1001395	MIB E3 ubiquitin protein ligase 1
 mib2	GeneID:100144683	XB-GENE-1217510	MIB E3 ubiquitin protein ligase 2
 mical2	GeneID:100487018	XB-GENE-959230	microtubule associated monooxygenase, calponin and LIM domain containing 2
 mical3	GeneID:100486205	XB-GENE-996271	microtubule associated monooxygenase, calponin and LIM domain containing 3
-micalcl	GeneID:101733176	NA	NameIsNotAvailable
+micalcl	GeneID:101733176	XB-GENE-959788	NameIsNotAvailable
 micall1	GeneID:779550	XB-GENE-493743	MICAL like 1
 micall2	GeneID:779968	XB-GENE-979747	MICAL-like 2
 micos10	GeneID:100135143	XB-GENE-6455175	mitochondrial contact site and cristae organizing system subunit 10
@@ -14205,7 +14202,7 @@ mstn.2	GeneID:100491923	XB-GENE-855713	myostatin, gene 2
 msto1	GeneID:100145525	XB-GENE-5880628	misato 1, mitochondrial distribution and morphology regulator
 msx1	GeneID:394692	XB-GENE-490378	msh homeobox 1
 msx2	GeneID:394987	XB-GENE-852974	msh homeobox 2
-mt-atp6	GeneID:3283497	NA	ATP synthase F0 subunit 6
+mt-atp6	GeneID:3283497	XB-GENE-17346957	ATP synthase F0 subunit 6
 mt-atp8	GeneID:3283496	XB-GENE-22250297	mitochondrially encoded ATP synthase 8
 mt-co2	GeneID:3283495	XB-GENE-22250304	mitochondrially encoded cytochrome c oxidase II
 mt-co3	GeneID:3283498	XB-GENE-6485458	mitochondrially encoded cytochrome c oxidase III
@@ -14368,7 +14365,7 @@ mymk	GeneID:116406750	XB-GENE-6033404	NameIsNotAvailable
 mynn	GeneID:101730887	XB-GENE-941010	myoneurin
 myo10	GeneID:548806	XB-GENE-1018818	myosin 10
 myo10.2	GeneID:100495096	XB-GENE-5995373	myosin 10, gene 2
-myo15a	GeneID:100488159	XB-GENE-492609	myosin XVA
+myo15a	GeneID:100488159	XB-GENE-492608	myosin XVA
 myo15b	GeneID:100485698	XB-GENE-6045939	myosin XVB
 myo16	GeneID:100486369	XB-GENE-1010948	myosin XVI
 myo18a	GeneID:548784	XB-GENE-1013112	myosin XVIIIA
@@ -15401,7 +15398,7 @@ palb2	GeneID:100491433	XB-GENE-5867929	partner and localizer of BRCA2
 pald1	GeneID:448380	XB-GENE-5740535	phosphatase domain containing paladin 1
 palld	GeneID:100144658	XB-GENE-854910	palladin, cytoskeletal associated protein
 palm	GeneID:594906	XB-GENE-5958239	paralemmin
-palm2	GeneID:100533180	XB-GENE-961312	PALM2 and AKAP2 fusion
+palm2	GeneID:100533180	XB-GENE-6039054	PALM2 and AKAP2 fusion
 palm3	GeneID:100490619	XB-GENE-22041744	paralemmin 3
 palmd	GeneID:100498317	XB-GENE-978164	palmdelphin
 pals1	GeneID:100145156	XB-GENE-978290	protein associated with LIN7 1, MAGUK p55 family member
@@ -16132,7 +16129,7 @@ polr1d.1	GeneID:496835	XB-GENE-1001223	RNA polymerase I and III subunit D, gene 
 polr1d.2	GeneID:100495369	XB-GENE-5852282	RNA polymerase I and III subunit D, gene 2
 polr1e	GeneID:100145368	XB-GENE-1003651	polymerase (RNA) I polypeptide E
 polr1f	GeneID:100145052	XB-GENE-5812677	RNA polymerase I subunit F
-polr1g	GeneID:100485875	NA	RNA polymerase I subunit G
+polr1g	GeneID:100485875	XB-GENE-919748	RNA polymerase I subunit G
 polr1h	GeneID:100379834	XB-GENE-5797380	RNA polymerase I subunit H
 polr2a	GeneID:116409862	XB-GENE-6257521	NameIsNotAvailable
 polr2b	GeneID:100380205	XB-GENE-1012874	polymerase (RNA) II (DNA directed) polypeptide B, 140kDa
@@ -16635,7 +16632,7 @@ ptpa	GeneID:100125159	XB-GENE-970102	protein phosphatase 2 phosphatase activator
 ptpdc1	GeneID:100490857	XB-GENE-6047403	protein tyrosine phosphatase domain containing 1
 ptpmt1	GeneID:116410288	XB-GENE-997503	NameIsNotAvailable
 ptpn1	GeneID:549875	XB-GENE-950442	protein tyrosine phosphatase non-receptor type 1
-ptpn11	GeneID:549586	NA	NameIsNotAvailable
+ptpn11	GeneID:549586	XB-GENE-22063675	NameIsNotAvailable
 ptpn11b	GeneID:548434	XB-GENE-6054495	protein tyrosine phosphatase, non-receptor type 11, b
 ptpn12	GeneID:595058	XB-GENE-942122	protein tyrosine phosphatase non-receptor type 12
 ptpn13	GeneID:100144727	XB-GENE-939886	protein tyrosine phosphatase non-receptor type 13
@@ -16799,7 +16796,7 @@ rab3il1	GeneID:100489083	XB-GENE-990395	RAB3A interacting protein (rabin3)-like 
 rab3ip	GeneID:394735	XB-GENE-978871	RAB3A interacting protein
 rab40b	GeneID:779634	XB-GENE-490554	RAB40B, member RAS oncogene family
 rab40c	GeneID:100492927	XB-GENE-6461049	RAB40C, member RAS oncogene family
-rab41	GeneID:100124772	NA	RAB41, member RAS oncogene family
+rab41	GeneID:100124772	XB-GENE-6454161	RAB41, member RAS oncogene family
 rab43	GeneID:549084	XB-GENE-6454160	RAB43, member RAS oncogene family
 rab44	GeneID:100145521	XB-GENE-5955488	RAB44, member RAS oncogene family
 rab4b	GeneID:549741	XB-GENE-946075	RAB4B member RAS oncogene family
@@ -16902,7 +16899,7 @@ raph1	GeneID:100491727	XB-GENE-5933838	Ras association (RalGDS/AF-6) and pleckst
 rapsn	GeneID:448160	XB-GENE-990995	receptor associated protein of the synapse
 rara	GeneID:100038052	XB-GENE-480836	retinoic acid receptor alpha
 rarb	GeneID:100488600	XB-GENE-481009	retinoic acid receptor beta
-rarg	GeneID:100485387	XB-GENE-484127	retinoic acid receptor gamma
+rarg	GeneID:100485387	XB-GENE-484126	retinoic acid receptor gamma
 rarres1	GeneID:100158540	XB-GENE-1011086	retinoic acid receptor responder (tazarotene induced) 1
 rarres2	GeneID:101730484	XB-GENE-959412	retinoic acid receptor responder (tazarotene induced) 2
 rars1	GeneID:395040	XB-GENE-955966	arginyl-tRNA synthetase 1
@@ -16927,7 +16924,7 @@ rasgrf2	GeneID:100486502	XB-GENE-483993	Ras protein specific guanine nucleotide 
 rasgrp1	GeneID:100101791	XB-GENE-489811	RAS guanyl releasing protein 1
 rasgrp2	GeneID:101733706	XB-GENE-986626	RAS guanyl releasing protein 2 (calcium and DAG-regulated)
 rasgrp3	GeneID:100487452	XB-GENE-492465	RAS guanyl releasing protein 3
-rasgrp4	GeneID:100496432	XB-GENE-494330	RAS guanyl releasing protein 4
+rasgrp4	GeneID:100496432	XB-GENE-494329	RAS guanyl releasing protein 4
 rasip1	GeneID:100493560	XB-GENE-6033970	Ras interacting protein 1
 rasl10a	GeneID:448561	XB-GENE-493766	RAS like family 10 member A
 rasl10b	GeneID:100489153	XB-GENE-478479	RAS like family 10 member B
@@ -17843,7 +17840,7 @@ senp8	GeneID:100145737	XB-GENE-959844	SUMO peptidase family member, NEDD8 specif
 sephs1	GeneID:448749	XB-GENE-986440	selenophosphate synthetase 1
 sephs3	GeneID:100488060	XB-GENE-5861249	selenophosphate synthetase 3
 sepsecs	GeneID:448354	XB-GENE-962222	Sep (O-phosphoserine) tRNA:Sec (selenocysteine) tRNA synthase
-sept2-a	GeneID:549793	NA	septin-2A
+sept2-a	GeneID:549793	XB-GENE-480200	septin-2A
 septin10	GeneID:496524	XB-GENE-1005816	septin 10
 septin11	GeneID:447955	XB-GENE-956044	septin 11
 septin12	GeneID:594940	XB-GENE-5894593	septin 12
@@ -18525,7 +18522,7 @@ smc2	GeneID:100486893	XB-GENE-5826169	structural maintenance of chromosomes 2
 smc3	GeneID:100145671	XB-GENE-957583	structural maintenance of chromosomes 3
 smc4	GeneID:100145810	XB-GENE-5865855	structural maintenance of chromosomes 4
 smc5	GeneID:100485531	XB-GENE-953072	structural maintenance of chromosomes 5
-smc6	GeneID:100495796	NA	structural maintenance of chromosomes 6
+smc6	GeneID:100495796	XB-GENE-6071283	structural maintenance of chromosomes 6
 smc6.1	GeneID:100495634	XB-GENE-6071284	structural maintenance of chromosomes 6, gene 1
 smchd1	GeneID:100380032	XB-GENE-968672	structural maintenance of chromosomes flexible hinge domain containing 1
 smco1	GeneID:100127809	XB-GENE-5804163	single-pass membrane protein with coiled-coil domains 1
@@ -18842,7 +18839,7 @@ sptlc3	GeneID:100487030	XB-GENE-5791607	serine palmitoyltransferase, long chain 
 sptssa	GeneID:448487	XB-GENE-949952	serine palmitoyltransferase small subunit A
 sptssb	GeneID:549969	XB-GENE-950653	serine palmitoyltransferase small subunit B
 spty2d1	GeneID:779888	XB-GENE-5939956	SPT2 chromatin protein domain containing 1
-spx	GeneID:116409663	NA	spexin hormone
+spx	GeneID:116409663	XB-GENE-492932	spexin hormone
 sqle	GeneID:100491400	XB-GENE-1013583	squalene epoxidase
 sqor	GeneID:549710	XB-GENE-957726	sulfide quinone oxidoreductase
 sqstm1	GeneID:493277	XB-GENE-5918988	sequestosome 1
@@ -19141,7 +19138,7 @@ surf6	GeneID:493251	XB-GENE-969953	surfeit 6
 susd1	GeneID:394830	XB-GENE-944710	sushi domain containing 1
 susd2	GeneID:105946288	XB-GENE-5887491	sushi domain containing 2
 susd3	GeneID:100135189	XB-GENE-959250	sushi domain containing 3
-susd4	GeneID:779812	XB-GENE-994827	sushi domain containing 4
+susd4	GeneID:779812	XB-GENE-480678	sushi domain containing 4
 susd6	GeneID:548989	XB-GENE-986596	sushi domain containing 6
 suv39h2	GeneID:549262	XB-GENE-852675	suppressor of variegation 3-9 homolog 2
 suz12	GeneID:779745	XB-GENE-997462	SUZ12, polycomb repressive complex 2 subunit
@@ -19262,7 +19259,7 @@ t2r50	GeneID:100335097	XB-GENE-29099639	bitter taste receptor 50
 t2r52	GeneID:100335099	XB-GENE-29099643	bitter taste receptor 52
 t2r53	GeneID:100335100	XB-GENE-29099647	bitter taste receptor 53
 t2r6	GeneID:100335059	XB-GENE-29099651	bitter taste receptor 6
-t2r7	GeneID:100335060	NA	bitter taste receptor 7
+t2r7	GeneID:100335060	XB-GENE-6464261	bitter taste receptor 7
 t2r8	GeneID:100335061	XB-GENE-29099655	bitter taste receptor 8
 t2r9	GeneID:100335062	XB-GENE-29099659	bitter taste receptor 9
 taar1	GeneID:100487786	XB-GENE-961114	trace amine associated receptor 1
@@ -19961,7 +19958,7 @@ tmem74b	GeneID:100486112	XB-GENE-940609	transmembrane protein 74B
 tmem79	GeneID:100485802	XB-GENE-6461062	transmembrane protein 79
 tmem80	GeneID:100486338	XB-GENE-990229	transmembrane protein 80
 tmem82	GeneID:549032	XB-GENE-5916313	transmembrane protein 82
-tmem86a	GeneID:100145092	XB-GENE-29072296	transmembrane protein 86B
+tmem86a	GeneID:100145092	XB-GENE-1007200	transmembrane protein 86B
 tmem87a	GeneID:100158639	XB-GENE-6258668	transmembrane protein 87A
 tmem87b	GeneID:548811	XB-GENE-963260	transmembrane protein 87B
 tmem88	GeneID:100380134	XB-GENE-5909232	transmembrane protein 88
@@ -20418,7 +20415,7 @@ ttc9	GeneID:100487152	XB-GENE-989115	tetratricopeptide repeat domain 9
 ttc9b	GeneID:779712	XB-GENE-489383	tetratricopeptide repeat domain 9B
 ttc9c	GeneID:100124897	XB-GENE-1006743	tetratricopeptide repeat domain 9C
 ttf1	GeneID:100493119	XB-GENE-953700	transcription termination factor, RNA polymerase I
-ttf2	GeneID:100486072	NA	NameIsNotAvailable
+ttf2	GeneID:100486072	XB-GENE-478543	NameIsNotAvailable
 tti1	GeneID:100124746	XB-GENE-5868172	TELO2 interacting protein 1
 tti2	GeneID:100487242	XB-GENE-999541	TELO2 interacting protein 2
 ttk	GeneID:780054	XB-GENE-953775	TTK protein kinase
