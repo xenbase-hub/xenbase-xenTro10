@@ -9,3 +9,4 @@ xenbase/*gz
 proteome/*gz
 genome/map/*
 genome/raw/*
+list/*gz
